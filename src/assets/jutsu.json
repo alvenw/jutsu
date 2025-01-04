@@ -3,7 +3,9 @@
     "name": "Afterimage Clone",
     "pageid": 201411,
     "hand_seals": [
-      "Tiger → Dog → Rat"
+      "Tiger",
+      "Dog",
+      "Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Afterimage_Clone",
     "classification": [
@@ -19,7 +21,10 @@
     "name": "Ankorodō Hiden Ninjutsu: Mochi Release: Infinite Dumplings",
     "pageid": 273529,
     "hand_seals": [
-      "Snake → Dog → Tiger → Palms out"
+      "Snake",
+      "Dog",
+      "Tiger",
+      "Palms out"
     ],
     "url": "https://naruto.fandom.com/wiki/Ankorod%C5%8D_Hiden_Ninjutsu:_Mochi_Release:_Infinite_Dumplings",
     "classification": [
@@ -37,7 +42,10 @@
     "name": "Antlion Ninja Arts: Ephemeral",
     "pageid": 9890,
     "hand_seals": [
-      "Snake → Bird → Monkey → Ox"
+      "Snake",
+      "Bird",
+      "Monkey",
+      "Ox"
     ],
     "url": "https://naruto.fandom.com/wiki/Antlion_Ninja_Arts:_Ephemeral",
     "classification": [
@@ -98,7 +106,36 @@
     "name": "Barrier Gate Five Seals Technique: Castle Closing Eight Gates",
     "pageid": 9336,
     "hand_seals": [
-      "Ram → Hare → Snake → Dragon → Rat → Ox → Tiger → Hare → Snake → Dragon → Rat → Ox → Tiger → Snake → Tiger → Ox → Snake → Tiger → Hare → Horse → Dragon → Rat → Snake → Tiger → Snake → Rat → Ox → Tiger → Hare → Snake"
+      "Ram",
+      "Hare",
+      "Snake",
+      "Dragon",
+      "Rat",
+      "Ox",
+      "Tiger",
+      "Hare",
+      "Snake",
+      "Dragon",
+      "Rat",
+      "Ox",
+      "Tiger",
+      "Snake",
+      "Tiger",
+      "Ox",
+      "Snake",
+      "Tiger",
+      "Hare",
+      "Horse",
+      "Dragon",
+      "Rat",
+      "Snake",
+      "Tiger",
+      "Snake",
+      "Rat",
+      "Ox",
+      "Tiger",
+      "Hare",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Barrier_Gate_Five_Seals_Technique:_Castle_Closing_Eight_Gates",
     "classification": [
@@ -114,7 +151,10 @@
     "name": "Barrier Releasing Technique",
     "pageid": 288388,
     "hand_seals": [
-      "Rabbit → Ox → Dog → Hands Clapped"
+      "Rabbit",
+      "Ox",
+      "Dog",
+      "Hands Clapped"
     ],
     "url": "https://naruto.fandom.com/wiki/Barrier_Releasing_Technique",
     "classification": [
@@ -130,7 +170,10 @@
     "name": "Barrier: Reclose Technique",
     "pageid": 120207,
     "hand_seals": [
-      "Hare → Tiger → Dog → Snake"
+      "Hare",
+      "Tiger",
+      "Dog",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Barrier:_Reclose_Technique",
     "classification": [
@@ -265,7 +308,11 @@
     "name": "Body Replacement Technique",
     "pageid": 1991,
     "hand_seals": [
-      "Tiger → Boar → Ox → Dog → Snake"
+      "Tiger",
+      "Boar",
+      "Ox",
+      "Dog",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Body_Replacement_Technique",
     "classification": [
@@ -333,7 +380,8 @@
     "name": "C1",
     "pageid": 21657,
     "hand_seals": [
-      "Snake → Tiger"
+      "Snake",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/C1",
     "classification": [
@@ -342,7 +390,8 @@
       "Ninjutsu"
     ],
     "nature": [
-      "Explosion Release", "Earth Release"
+      "Explosion Release",
+      "Earth Release"
     ],
     "rank": null,
     "class": "Offensive, Defensive, Supplementary",
@@ -352,7 +401,10 @@
     "name": "C4",
     "pageid": 26241,
     "hand_seals": [
-      "Tiger → Snake → Bird → Snake"
+      "Tiger",
+      "Snake",
+      "Bird",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/C4",
     "classification": [
@@ -361,7 +413,8 @@
       "Ninjutsu"
     ],
     "nature": [
-      "Explosion Release", "Earth Release"
+      "Explosion Release",
+      "Earth Release"
     ],
     "rank": null,
     "class": "Offensive",
@@ -371,7 +424,10 @@
     "name": "Cat Genjutsu",
     "pageid": 61735,
     "hand_seals": [
-      "Ox → Boar → Horse → Clap hands"
+      "Ox",
+      "Boar",
+      "Horse",
+      "Clap hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Cat_Genjutsu",
     "classification": [
@@ -403,7 +459,9 @@
     "name": "Chakra Lock-On",
     "pageid": 289711,
     "hand_seals": [
-      "Rat → Ram → Technique specific seal"
+      "Rat",
+      "Ram",
+      "Technique specific seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Chakra_Lock-On",
     "classification": [
@@ -418,7 +476,8 @@
     "name": "Chakra Needle",
     "pageid": 166829,
     "hand_seals": [
-      "Horse → Ram"
+      "Horse",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Chakra_Needle",
     "classification": [
@@ -433,7 +492,11 @@
     "name": "Chakra Scalpel",
     "pageid": 6510,
     "hand_seals": [
-      "Tiger → Horse → Rabbit → Rat → Dog"
+      "Tiger",
+      "Horse",
+      "Rabbit",
+      "Rat",
+      "Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Chakra_Scalpel",
     "classification": [
@@ -483,8 +546,18 @@
     "name": "Chidori",
     "pageid": 2006,
     "hand_seals": [
-      "Ox → Rabbit → Monkey",
-      "or Monkey → Dragon → Rat → Bird → Ox → Snake → Dog → Tiger → Monkey"
+      "Ox",
+      "Rabbit",
+      "Monkey",
+      "or Monkey",
+      "Dragon",
+      "Rat",
+      "Bird",
+      "Ox",
+      "Snake",
+      "Dog",
+      "Tiger",
+      "Monkey"
     ],
     "url": "https://naruto.fandom.com/wiki/Chidori",
     "classification": [
@@ -501,7 +574,9 @@
     "name": "Chimera Technique",
     "pageid": 19912,
     "hand_seals": [
-      "Ox → Horse → Hare"
+      "Ox",
+      "Horse",
+      "Hare"
     ],
     "url": "https://naruto.fandom.com/wiki/Chimera_Technique",
     "classification": [
@@ -518,7 +593,9 @@
     "name": "Clone Technique",
     "pageid": 1986,
     "hand_seals": [
-      "Ram → Snake → Tiger"
+      "Ram",
+      "Snake",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Clone_Technique",
     "classification": [
@@ -566,7 +643,9 @@
     "name": "Conch Cannon",
     "pageid": 61333,
     "hand_seals": [
-      "Dog → Boar → Snake"
+      "Dog",
+      "Boar",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Conch_Cannon",
     "classification": [
@@ -582,7 +661,9 @@
     "name": "Conch Whip",
     "pageid": 61213,
     "hand_seals": [
-      "Tiger → Dog → Snake"
+      "Tiger",
+      "Dog",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Conch_Whip",
     "classification": [
@@ -616,7 +697,9 @@
     "name": "Crimson Mist Barrier Technique",
     "pageid": 245876,
     "hand_seals": [
-      "Dog → Snake → Ram"
+      "Dog",
+      "Snake",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Crimson_Mist_Barrier_Technique",
     "classification": [
@@ -652,7 +735,11 @@
     "name": "Crystal Release: Crystal Encampment Wall",
     "pageid": 10326,
     "hand_seals": [
-      "Snake → Technique specific hand seal → Dog → Technique specific hand seal → Technique specific hand seal"
+      "Snake",
+      "Technique specific hand seal",
+      "Dog",
+      "Technique specific hand seal",
+      "Technique specific hand seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal_Release:_Crystal_Encampment_Wall",
     "classification": [
@@ -688,7 +775,10 @@
     "name": "Crystal Release: Jade Crystal Blade",
     "pageid": 11777,
     "hand_seals": [
-      "Horse → Ox → Boar → Snake"
+      "Horse",
+      "Ox",
+      "Boar",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal_Release:_Jade_Crystal_Blade",
     "classification": [
@@ -706,7 +796,12 @@
     "name": "Crystal Release: Jade Crystal Hexagonal Pillars",
     "pageid": 11956,
     "hand_seals": [
-      "Rat → Snake → Ram → Dog → Tiger → Hands clapped together"
+      "Rat",
+      "Snake",
+      "Ram",
+      "Dog",
+      "Tiger",
+      "Hands clapped together"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal_Release:_Jade_Crystal_Hexagonal_Pillars",
     "classification": [
@@ -724,7 +819,11 @@
     "name": "Crystal Release: Jade Crystal Labyrinth Technique",
     "pageid": 11626,
     "hand_seals": [
-      "Boar → Monkey → Horse → Dog → Ram"
+      "Boar",
+      "Monkey",
+      "Horse",
+      "Dog",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal_Release:_Jade_Crystal_Labyrinth_Technique",
     "classification": [
@@ -743,7 +842,10 @@
     "name": "Crystal Release: Jade Crystal Mirror",
     "pageid": 11775,
     "hand_seals": [
-      "Ram → Dog → Monkey → Open Hands"
+      "Ram",
+      "Dog",
+      "Monkey",
+      "Open Hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal_Release:_Jade_Crystal_Mirror",
     "classification": [
@@ -779,7 +881,15 @@
     "name": "Crystal Release: Jade Crystal Wall Eighth Formation",
     "pageid": 12133,
     "hand_seals": [
-      "Rat → Dog → Horse → Ram → Boar → Dragon → Rat → Ram → Boar"
+      "Rat",
+      "Dog",
+      "Horse",
+      "Ram",
+      "Boar",
+      "Dragon",
+      "Rat",
+      "Ram",
+      "Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal_Release:_Jade_Crystal_Wall_Eighth_Formation",
     "classification": [
@@ -815,7 +925,8 @@
     "name": "Crystal Release: Tearing Crystal Falling Dragon",
     "pageid": 11955,
     "hand_seals": [
-      "Boar → Ram"
+      "Boar",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal_Release:_Tearing_Crystal_Falling_Dragon",
     "classification": [
@@ -833,7 +944,10 @@
     "name": "Crystal Release: The Gods' Crossings Technique",
     "pageid": 12132,
     "hand_seals": [
-      "Horse → Monkey → Ram → Boar"
+      "Horse",
+      "Monkey",
+      "Ram",
+      "Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal_Release:_The_Gods%27_Crossings_Technique",
     "classification": [
@@ -869,7 +983,15 @@
     "name": "Crystal: Hexagonal Shuriken: Wild Dance",
     "pageid": 13025,
     "hand_seals": [
-      "Snake → Dog → Ram → Horse → Rat → Monkey → Bird → Boar → Ram"
+      "Snake",
+      "Dog",
+      "Ram",
+      "Horse",
+      "Rat",
+      "Monkey",
+      "Bird",
+      "Boar",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Crystal:_Hexagonal_Shuriken:_Wild_Dance",
     "classification": [
@@ -887,7 +1009,8 @@
     "name": "Cursed Sand Puppet Technique",
     "pageid": 168260,
     "hand_seals": [
-      "Technique-specific seal → Slam hands on the ground"
+      "Technique-specific seal",
+      "Slam hands on the ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Cursed_Sand_Puppet_Technique",
     "classification": [
@@ -935,7 +1058,10 @@
     "name": "Dark Flames Technique",
     "pageid": 293162,
     "hand_seals": [
-      "Tiger → Dog → Snake → Ram"
+      "Tiger",
+      "Dog",
+      "Snake",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Dark_Flames_Technique",
     "classification": [
@@ -952,7 +1078,10 @@
     "name": "Dark Release: Inhaling Maw",
     "pageid": 25641,
     "hand_seals": [
-      "Horse or Rat → Hare → Bird"
+      "Horse",
+      "or Rat",
+      "Hare",
+      "Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Dark_Release:_Inhaling_Maw",
     "classification": [
@@ -1003,7 +1132,16 @@
     "name": "Dead Demon Consuming Seal",
     "pageid": 2054,
     "hand_seals": [
-      "Snake → Boar → Ram → Rabbit → Dog → Rat → Bird → Horse → Snake → Clap Hands"
+      "Snake",
+      "Boar",
+      "Ram",
+      "Rabbit",
+      "Dog",
+      "Rat",
+      "Bird",
+      "Horse",
+      "Snake",
+      "Clap Hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Dead_Demon_Consuming_Seal",
     "classification": [
@@ -1020,7 +1158,10 @@
     "name": "Decapitating Airwaves",
     "pageid": 1996,
     "hand_seals": [
-      "Snake → Rabbit → Horse → Boar"
+      "Snake",
+      "Rabbit",
+      "Horse",
+      "Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Decapitating_Airwaves",
     "classification": [
@@ -1035,7 +1176,11 @@
     "name": "Demonic Illusion: Descending Hell Technique",
     "pageid": 2076,
     "hand_seals": [
-      "Boar → Dog → Bird → Monkey → Ram"
+      "Boar",
+      "Dog",
+      "Bird",
+      "Monkey",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Demonic_Illusion:_Descending_Hell_Technique",
     "classification": [
@@ -1052,7 +1197,8 @@
     "name": "Demonic Illusion: Flower Mist",
     "pageid": 33797,
     "hand_seals": [
-      "Snake → Technique specific hand seal"
+      "Snake",
+      "Technique specific hand seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Demonic_Illusion:_Flower_Mist",
     "classification": [
@@ -1069,7 +1215,8 @@
     "name": "Demonic Illusion: Hell Viewing Technique",
     "pageid": 2079,
     "hand_seals": [
-      "Snake → Rat"
+      "Snake",
+      "Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Demonic_Illusion:_Hell_Viewing_Technique",
     "classification": [
@@ -1086,7 +1233,11 @@
     "name": "Demonic Illusion: Tree Binding Death",
     "pageid": 2081,
     "hand_seals": [
-      "Dog → Snake → Monkey → Ox → Tiger"
+      "Dog",
+      "Snake",
+      "Monkey",
+      "Ox",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Demonic_Illusion:_Tree_Binding_Death",
     "classification": [
@@ -1192,7 +1343,8 @@
     "name": "Dragon Life Reincarnation",
     "pageid": 95212,
     "hand_seals": [
-      "Bird → Seal of Confrontation"
+      "Bird",
+      "Seal of Confrontation"
     ],
     "url": "https://naruto.fandom.com/wiki/Dragon_Life_Reincarnation",
     "classification": [
@@ -1209,7 +1361,9 @@
     "name": "Dust Release: Detachment of the Primitive World Technique",
     "pageid": 24382,
     "hand_seals": [
-      "Rat → Boar → Snake"
+      "Rat",
+      "Boar",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Dust_Release:_Detachment_of_the_Primitive_World_Technique",
     "classification": [
@@ -1227,7 +1381,9 @@
     "name": "Dust Release: Split Detachment of the Primitive World Technique",
     "pageid": 119857,
     "hand_seals": [
-      "Snake → Dragon → Dog"
+      "Snake",
+      "Dragon",
+      "Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Dust_Release:_Split_Detachment_of_the_Primitive_World_Technique",
     "classification": [
@@ -1235,7 +1391,9 @@
       "Ninjutsu"
     ],
     "nature": [
-      "Dust ReleaseEarth ReleaseWater Release"
+      "Dust Release",
+      "Earth Release",
+      "Water Release"
     ],
     "rank": null,
     "class": "Offensive",
@@ -1245,7 +1403,8 @@
     "name": "Earth Release Barrier: Earth Prison Dome of Magnificent Nothingness",
     "pageid": 2288,
     "hand_seals": [
-      "Snake → Slam hands on ground"
+      "Snake",
+      "Slam hands on ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release_Barrier:_Earth_Prison_Dome_of_Magnificent_Nothingness",
     "classification": [
@@ -1332,7 +1491,11 @@
     "name": "Earth Release: Devouring Earth",
     "pageid": 31001,
     "hand_seals": [
-      "Ram → Horse → Tiger → Rabbit → Snake"
+      "Ram",
+      "Horse",
+      "Tiger",
+      "Rabbit",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Devouring_Earth",
     "classification": [
@@ -1384,7 +1547,10 @@
     "name": "Earth Release: Dust Storm",
     "pageid": 289526,
     "hand_seals": [
-      "Monkey → Ram → Snake → Hands clapped together"
+      "Monkey",
+      "Ram",
+      "Snake",
+      "Hands clapped together"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Dust_Storm",
     "classification": [
@@ -1401,7 +1567,10 @@
     "name": "Earth Release: Earth and Stone Bamboo Shoot",
     "pageid": 104289,
     "hand_seals": [
-      "Snake → Ox → Rat → Technique specific seal"
+      "Snake",
+      "Ox",
+      "Rat",
+      "Technique specific seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth_and_Stone_Bamboo_Shoot",
     "classification": [
@@ -1418,7 +1587,14 @@
     "name": "Earth Release: Earth and Stone Dragon",
     "pageid": 62144,
     "hand_seals": [
-      "Horse → Dog → Bird → Ox → Dog → Ox → Ram → Snake"
+      "Horse",
+      "Dog",
+      "Bird",
+      "Ox",
+      "Dog",
+      "Ox",
+      "Ram",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth_and_Stone_Dragon",
     "classification": [
@@ -1452,7 +1628,9 @@
     "name": "Earth Release: Earth Dragon Bullet",
     "pageid": 3692,
     "hand_seals": [
-      "Ram → Horse → Dragon"
+      "Ram",
+      "Horse",
+      "Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth_Dragon_Bullet",
     "classification": [
@@ -1469,7 +1647,12 @@
     "name": "Earth Release: Earth Flow Divide",
     "pageid": 14460,
     "hand_seals": [
-      "Rabbit → Boar → Rat → Horse → Tiger → Snake"
+      "Rabbit",
+      "Boar",
+      "Rat",
+      "Horse",
+      "Tiger",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth_Flow_Divide",
     "classification": [
@@ -1503,7 +1686,9 @@
     "name": "Earth Release: Earth Flow Spears",
     "pageid": 7257,
     "hand_seals": [
-      "Snake → Rat → Bird"
+      "Snake",
+      "Rat",
+      "Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth_Flow_Spears",
     "classification": [
@@ -1520,8 +1705,13 @@
     "name": "Earth Release: Earth Flow Wave",
     "pageid": 63137,
     "hand_seals": [
-      "Rat → Snake → Tiger",
-      "or Snake → Ox → Boar → Bird"
+      "Rat",
+      "Snake",
+      "Tiger",
+      "or Snake",
+      "Ox",
+      "Boar",
+      "Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth_Flow_Wave",
     "classification": [
@@ -1556,7 +1746,8 @@
     "name": "Earth Release: Earth Wave Technique",
     "pageid": 173501,
     "hand_seals": [
-      "Snake → Slam hand on ground"
+      "Snake",
+      "Slam hand on ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth_Wave_Technique",
     "classification": [
@@ -1590,7 +1781,14 @@
     "name": "Earth Release: Earth-Style Wall",
     "pageid": 4459,
     "hand_seals": [
-      "Tiger → Hare → Boar → Dog or Ram → Dog → Ox → Snake"
+      "Tiger",
+      "Hare",
+      "Boar",
+      "Dog",
+      "or Ram",
+      "Dog",
+      "Ox",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth-Style_Wall",
     "classification": [
@@ -1607,7 +1805,8 @@
     "name": "Earth Release: Earth-Style Wall of Ten Thousand Ri",
     "pageid": 82164,
     "hand_seals": [
-      "Dog → Snake"
+      "Dog",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Earth-Style_Wall_of_Ten_Thousand_Ri",
     "classification": [
@@ -1625,7 +1824,11 @@
     "name": "Earth Release: Fighting Blade Rod",
     "pageid": 291871,
     "hand_seals": [
-      "Snake → Tiger → Bird → Ox → Boar"
+      "Snake",
+      "Tiger",
+      "Bird",
+      "Ox",
+      "Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Fighting_Blade_Rod",
     "classification": [
@@ -1642,7 +1845,13 @@
     "name": "Earth Release: Fissure",
     "pageid": 118228,
     "hand_seals": [
-      "Dog → Snake → Horse → Tiger → Snake → Dog → Tiger"
+      "Dog",
+      "Snake",
+      "Horse",
+      "Tiger",
+      "Snake",
+      "Dog",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Fissure",
     "classification": [
@@ -1659,7 +1868,13 @@
     "name": "Earth Release: Fist Rock Technique",
     "pageid": 68110,
     "hand_seals": [
-      "Snake → Seal of Confrontation or Ram → Dog → Rat → Snake → Tiger"
+      "Snake",
+      "Seal of Confrontation",
+      "or Ram",
+      "Dog",
+      "Rat",
+      "Snake",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Fist_Rock_Technique",
     "classification": [
@@ -1677,7 +1892,13 @@
     "name": "Earth Release: Flying Thrown Stones",
     "pageid": 111923,
     "hand_seals": [
-      "Dog → Tiger → Snake → Dog → Rat → Snake → Slam hands on the ground"
+      "Dog",
+      "Tiger",
+      "Snake",
+      "Dog",
+      "Rat",
+      "Snake",
+      "Slam hands on the ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Flying_Thrown_Stones",
     "classification": [
@@ -1728,7 +1949,12 @@
     "name": "Earth Release: Great Moving Earth Core",
     "pageid": 106089,
     "hand_seals": [
-      "Hare → Ram → Snake → Hare → Ram → Snake"
+      "Hare",
+      "Ram",
+      "Snake",
+      "Hare",
+      "Ram",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Great_Moving_Earth_Core",
     "classification": [
@@ -1762,7 +1988,10 @@
     "name": "Earth Release: Iron Fist Prison",
     "pageid": 85458,
     "hand_seals": [
-      "Ram → Dog → Hare → Rat"
+      "Ram",
+      "Dog",
+      "Hare",
+      "Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Iron_Fist_Prison",
     "classification": [
@@ -1796,7 +2025,9 @@
     "name": "Earth Release: Mudslide",
     "pageid": 65648,
     "hand_seals": [
-      "Dog → Ram → Boar"
+      "Dog",
+      "Ram",
+      "Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Mudslide",
     "classification": [
@@ -1813,7 +2044,11 @@
     "name": "Earth Release: Mutability",
     "pageid": 6150,
     "hand_seals": [
-      "Boar → Monkey → Bird → Monkey → Ram"
+      "Boar",
+      "Monkey",
+      "Bird",
+      "Monkey",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Mutability",
     "classification": [
@@ -1831,7 +2066,10 @@
     "name": "Earth Release: Opening Earth Rising Excavation",
     "pageid": 62510,
     "hand_seals": [
-      "Boar → Bird → Rat → Snake"
+      "Boar",
+      "Bird",
+      "Rat",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Opening_Earth_Rising_Excavation",
     "classification": [
@@ -1848,7 +2086,17 @@
     "name": "Earth Release: Practice Brick Technique",
     "pageid": 112840,
     "hand_seals": [
-      "Ram → Tiger → Snake → Dog → Rat → Ox → Horse → Rabbit → Tiger → Boar → Snake"
+      "Ram",
+      "Tiger",
+      "Snake",
+      "Dog",
+      "Rat",
+      "Ox",
+      "Horse",
+      "Rabbit",
+      "Tiger",
+      "Boar",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Practice_Brick_Technique",
     "classification": [
@@ -1901,7 +2149,9 @@
     "pageid": 135887,
     "hand_seals": [
       "Monkey",
-      "or Dog → Rabbit → Snake"
+      "or Dog",
+      "Rabbit",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Rock_Gun_Technique",
     "classification": [
@@ -1918,7 +2168,9 @@
     "name": "Earth Release: Rock Lodging Destruction",
     "pageid": 3096,
     "hand_seals": [
-      "Tiger → Rat → Snake"
+      "Tiger",
+      "Rat",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Rock_Lodging_Destruction",
     "classification": [
@@ -1935,7 +2187,10 @@
     "name": "Earth Release: Rock Pillar Prison Technique",
     "pageid": 6303,
     "hand_seals": [
-      "Rat → Horse → Dog → Snake"
+      "Rat",
+      "Horse",
+      "Dog",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Rock_Pillar_Prison_Technique",
     "classification": [
@@ -1952,7 +2207,10 @@
     "name": "Earth Release: Rock Trail",
     "pageid": 30915,
     "hand_seals": [
-      "Ram → Bird → Snake → hand slams ground"
+      "Ram",
+      "Bird",
+      "Snake",
+      "hand slams ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Rock_Trail",
     "classification": [
@@ -1986,7 +2244,10 @@
     "name": "Earth Release: Sandwich Technique",
     "pageid": 72824,
     "hand_seals": [
-      "Tiger → Ram → Rat → Slam hands on the ground"
+      "Tiger",
+      "Ram",
+      "Rat",
+      "Slam hands on the ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Sandwich_Technique",
     "classification": [
@@ -2003,7 +2264,8 @@
     "name": "Earth Release: Swamp of the Underworld",
     "pageid": 3098,
     "hand_seals": [
-      "Boar → Tiger"
+      "Boar",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Swamp_of_the_Underworld",
     "classification": [
@@ -2020,7 +2282,9 @@
     "name": "Earth Release: Tearing Earth Turning Palm",
     "pageid": 3097,
     "hand_seals": [
-      "Boar → Ox → Technique specific seal"
+      "Boar",
+      "Ox",
+      "Technique specific seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Tearing_Earth_Turning_Palm",
     "classification": [
@@ -2054,7 +2318,10 @@
     "name": "Earth Release: Tunnelling Technique",
     "pageid": 60023,
     "hand_seals": [
-      "Ram → Dog → Rat → Bird"
+      "Ram",
+      "Dog",
+      "Rat",
+      "Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Earth_Release:_Tunnelling_Technique",
     "classification": [
@@ -2071,7 +2338,10 @@
     "name": "Eight Trigrams Grid Palm",
     "pageid": 188083,
     "hand_seals": [
-      "Tiger → Ram → Ox → Bird"
+      "Tiger",
+      "Ram",
+      "Ox",
+      "Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Eight_Trigrams_Grid_Palm",
     "classification": [
@@ -2104,7 +2374,13 @@
     "name": "Evil Releasing Method",
     "pageid": 99330,
     "hand_seals": [
-      "Tiger → Snake → Horse → Ram → Tiger → Hare → Rat"
+      "Tiger",
+      "Snake",
+      "Horse",
+      "Ram",
+      "Tiger",
+      "Hare",
+      "Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Evil_Releasing_Method",
     "classification": [
@@ -2120,7 +2396,25 @@
     "name": "Evil Sealing Method",
     "pageid": 3066,
     "hand_seals": [
-      "Hare → Snake → Horse → Ram → Bird → Tiger → Hare → Snake → Horse → Ram → Bird → Tiger → Hare → Snake → Horse → Ram → Bird → Dog → Rat"
+      "Hare",
+      "Snake",
+      "Horse",
+      "Ram",
+      "Bird",
+      "Tiger",
+      "Hare",
+      "Snake",
+      "Horse",
+      "Ram",
+      "Bird",
+      "Tiger",
+      "Hare",
+      "Snake",
+      "Horse",
+      "Ram",
+      "Bird",
+      "Dog",
+      "Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Evil_Sealing_Method",
     "classification": [
@@ -2166,7 +2460,9 @@
     "name": "Fire Release Cooperation Technique: Garuda",
     "pageid": 54285,
     "hand_seals": [
-      "Dog → Rat → Tiger"
+      "Dog",
+      "Rat",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release_Cooperation_Technique:_Garuda",
     "classification": [
@@ -2184,7 +2480,10 @@
     "name": "Fire Release: Ash Pile Burning",
     "pageid": 3257,
     "hand_seals": [
-      "Snake → Rat → Snake → Tiger"
+      "Snake",
+      "Rat",
+      "Snake",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Ash_Pile_Burning",
     "classification": [
@@ -2218,7 +2517,15 @@
     "name": "Fire Release: Chaotic Petals",
     "pageid": 293357,
     "hand_seals": [
-      "Tiger → Monkey → Snake → Boar → Tiger → Dog → Snake → Boar → Tiger"
+      "Tiger",
+      "Monkey",
+      "Snake",
+      "Boar",
+      "Tiger",
+      "Dog",
+      "Snake",
+      "Boar",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Chaotic_Petals",
     "classification": [
@@ -2235,7 +2542,11 @@
     "name": "Fire Release: Crimson Earth Spider",
     "pageid": 85879,
     "hand_seals": [
-      "Tiger → Horse → Rat → Dog → Tiger"
+      "Tiger",
+      "Horse",
+      "Rat",
+      "Dog",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Crimson_Earth_Spider",
     "classification": [
@@ -2252,7 +2563,11 @@
     "name": "Fire Release: Deep Flame Explosion",
     "pageid": 293571,
     "hand_seals": [
-      "Monkey → Snake → Bird → Boar → Tiger"
+      "Monkey",
+      "Snake",
+      "Bird",
+      "Boar",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Deep_Flame_Explosion",
     "classification": [
@@ -2269,7 +2584,9 @@
     "name": "Fire Release: Demon Lantern",
     "pageid": 78568,
     "hand_seals": [
-      "Dog → Horse → Tiger"
+      "Dog",
+      "Horse",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Demon_Lantern",
     "classification": [
@@ -2286,7 +2603,10 @@
     "name": "Fire Release: Dragon Fire Technique",
     "pageid": 3059,
     "hand_seals": [
-      "Snake → Dragon → Rabbit → Tiger"
+      "Snake",
+      "Dragon",
+      "Rabbit",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Dragon_Fire_Technique",
     "classification": [
@@ -2320,7 +2640,10 @@
     "name": "Fire Release: Exploding Flame Formation",
     "pageid": 15121,
     "hand_seals": [
-      "Tiger → Rat → Bird → Snake"
+      "Tiger",
+      "Rat",
+      "Bird",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Exploding_Flame_Formation",
     "classification": [
@@ -2338,7 +2661,15 @@
     "name": "Fire Release: Fire Dragon Bullet",
     "pageid": 3521,
     "hand_seals": [
-      "Tiger or Technique specific seal → Ram → Horse → Snake → Dragon → Rat → Ox → Tiger"
+      "Tiger",
+      "or Technique specific seal",
+      "Ram",
+      "Horse",
+      "Snake",
+      "Dragon",
+      "Rat",
+      "Ox",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Fire_Dragon_Bullet",
     "classification": [
@@ -2355,7 +2686,13 @@
     "name": "Fire Release: Fire Dragon Flame Bullet",
     "pageid": 3281,
     "hand_seals": [
-      "Ram → Horse → Snake → Dragon → Rat → Ox → Tiger"
+      "Ram",
+      "Horse",
+      "Snake",
+      "Dragon",
+      "Rat",
+      "Ox",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Fire_Dragon_Flame_Bullet",
     "classification": [
@@ -2372,7 +2709,10 @@
     "name": "Fire Release: Fire Dragon Wall",
     "pageid": 293078,
     "hand_seals": [
-      "Tiger → Monkey → Horse → Rat"
+      "Tiger",
+      "Monkey",
+      "Horse",
+      "Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Fire_Dragon_Wall",
     "classification": [
@@ -2389,7 +2729,9 @@
     "name": "Fire Release: Fired Pottery Technique",
     "pageid": 44723,
     "hand_seals": [
-      "Rat → Dragon → Boar"
+      "Rat",
+      "Dragon",
+      "Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Fired_Pottery_Technique",
     "classification": [
@@ -2406,7 +2748,17 @@
     "name": "Fire Release: Flame Bullet",
     "pageid": 11610,
     "hand_seals": [
-      "Snake → Ram → Monkey → Boar → Horse → Tiger or Technique specific seal → Dragon → Ox → Dog → Tiger"
+      "Snake",
+      "Ram",
+      "Monkey",
+      "Boar",
+      "Horse",
+      "Tiger",
+      "or Technique specific seal",
+      "Dragon",
+      "Ox",
+      "Dog",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Flame_Bullet",
     "classification": [
@@ -2423,7 +2775,10 @@
     "name": "Fire Release: Flame Whirlwind",
     "pageid": 85881,
     "hand_seals": [
-      "Monkey → Bird → Dog → Ram"
+      "Monkey",
+      "Bird",
+      "Dog",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Flame_Whirlwind",
     "classification": [
@@ -2457,7 +2812,9 @@
     "name": "Fire Release: Flint Yagura Technique",
     "pageid": 72916,
     "hand_seals": [
-      "Dog → Boar → Tiger"
+      "Dog",
+      "Boar",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Flint_Yagura_Technique",
     "classification": [
@@ -2474,7 +2831,12 @@
     "name": "Fire Release: Fox Fire",
     "pageid": 254025,
     "hand_seals": [
-      "Snake → Ram → Monkey → Boar → Bird → Tiger"
+      "Snake",
+      "Ram",
+      "Monkey",
+      "Boar",
+      "Bird",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Fox_Fire",
     "classification": [
@@ -2491,7 +2853,8 @@
     "name": "Fire Release: Great Blaze Ball",
     "pageid": 2723,
     "hand_seals": [
-      "Horse → Tiger"
+      "Horse",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Great_Blaze_Ball",
     "classification": [
@@ -2542,7 +2905,13 @@
     "name": "Fire Release: Great Fire Destruction",
     "pageid": 91483,
     "hand_seals": [
-      "Rat → Ox → Dog → Horse → Monkey → Boar → Tiger"
+      "Rat",
+      "Ox",
+      "Dog",
+      "Horse",
+      "Monkey",
+      "Boar",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Great_Fire_Destruction",
     "classification": [
@@ -2559,7 +2928,12 @@
     "name": "Fire Release: Great Fireball Technique",
     "pageid": 1674,
     "hand_seals": [
-      "Snake → Ram → Monkey → Boar → Horse → Tiger"
+      "Snake",
+      "Ram",
+      "Monkey",
+      "Boar",
+      "Horse",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Great_Fireball_Technique",
     "classification": [
@@ -2594,7 +2968,9 @@
     "name": "Fire Release: Intelligent Hard Work",
     "pageid": 4881,
     "hand_seals": [
-      "Rat → Dog → Tiger"
+      "Rat",
+      "Dog",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Intelligent_Hard_Work",
     "classification": [
@@ -2611,7 +2987,10 @@
     "name": "Fire Release: Mist Blaze Dance Technique",
     "pageid": 6608,
     "hand_seals": [
-      "Snake → Ram → Monkey → Tiger"
+      "Snake",
+      "Ram",
+      "Monkey",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Mist_Blaze_Dance_Technique",
     "classification": [
@@ -2628,7 +3007,12 @@
     "name": "Fire Release: Phoenix Sage Fire Technique",
     "pageid": 2693,
     "hand_seals": [
-      "Rat → Tiger → Dog → Ox → Rabbit → Tiger"
+      "Rat",
+      "Tiger",
+      "Dog",
+      "Ox",
+      "Rabbit",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Phoenix_Sage_Fire_Technique",
     "classification": [
@@ -2645,7 +3029,13 @@
     "name": "Fire Release: Phoenix Sage Flower Nail Crimson",
     "pageid": 79342,
     "hand_seals": [
-      "Rat → Tiger → Dog → Ox → Rabbit → Tiger → Monkey"
+      "Rat",
+      "Tiger",
+      "Dog",
+      "Ox",
+      "Rabbit",
+      "Tiger",
+      "Monkey"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Phoenix_Sage_Flower_Nail_Crimson",
     "classification": [
@@ -2681,7 +3071,13 @@
     "name": "Fire Release: Soaring Flame Bullet Technique",
     "pageid": 295282,
     "hand_seals": [
-      "Horse → Hare or Snake → Rat → Monkey → Horse → Hare"
+      "Horse",
+      "Hare",
+      "or Snake",
+      "Rat",
+      "Monkey",
+      "Horse",
+      "Hare"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Soaring_Flame_Bullet_Technique",
     "classification": [
@@ -2698,7 +3094,12 @@
     "name": "Fire Release: Toad Oil Flame Bullet",
     "pageid": 3247,
     "hand_seals": [
-      "Snake → Ram → Monkey → Boar → Horse → Tiger"
+      "Snake",
+      "Ram",
+      "Monkey",
+      "Boar",
+      "Horse",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Release:_Toad_Oil_Flame_Bullet",
     "classification": [
@@ -2716,7 +3117,10 @@
     "name": "Fire Sealing Method",
     "pageid": 3178,
     "hand_seals": [
-      "Rat → Bird → Technique specific seal → Tiger"
+      "Rat",
+      "Bird",
+      "Technique specific seal",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Fire_Sealing_Method",
     "classification": [
@@ -2782,7 +3186,8 @@
     "name": "Flying Thunder God Technique (Boruto)",
     "pageid": 295465,
     "hand_seals": [
-      "Seal of Confrontation or Ram"
+      "Seal of Confrontation",
+      "or Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Flying_Thunder_God_Technique_(Boruto)",
     "classification": [
@@ -2798,7 +3203,11 @@
     "name": "Flying Thunder God: Guiding Thunder",
     "pageid": 50248,
     "hand_seals": [
-      "Snake → Horse → Rat → Ram → Technique Specific Hand Seal"
+      "Snake",
+      "Horse",
+      "Rat",
+      "Ram",
+      "Technique Specific Hand Seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Flying_Thunder_God:_Guiding_Thunder",
     "classification": [
@@ -2852,7 +3261,9 @@
     "name": "Four Black Fogs Formation",
     "pageid": 5908,
     "hand_seals": [
-      "Snake → Tiger → Clap hands together"
+      "Snake",
+      "Tiger",
+      "Clap hands together"
     ],
     "url": "https://naruto.fandom.com/wiki/Four_Black_Fogs_Formation",
     "classification": [
@@ -2870,7 +3281,9 @@
     "name": "Four Black Snakes Formation",
     "pageid": 289529,
     "hand_seals": [
-      "Bird → Dog → Snake"
+      "Bird",
+      "Dog",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Four_Black_Snakes_Formation",
     "classification": [
@@ -2905,7 +3318,8 @@
     "name": "Four Violet Flames Formation",
     "pageid": 6409,
     "hand_seals": [
-      "Snake → Claps hands"
+      "Snake",
+      "Claps hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Four_Violet_Flames_Formation",
     "classification": [
@@ -2922,7 +3336,10 @@
     "name": "Four-Corner Sealing Barrier",
     "pageid": 12312,
     "hand_seals": [
-      "Dog → Snake → Boar → Tiger"
+      "Dog",
+      "Snake",
+      "Boar",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Four-Corner_Sealing_Barrier",
     "classification": [
@@ -2940,7 +3357,9 @@
     "name": "Fury",
     "pageid": 35312,
     "hand_seals": [
-      "Boar → Dog → Snake"
+      "Boar",
+      "Dog",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Fury",
     "classification": [
@@ -2957,7 +3376,18 @@
     "name": "Gedō Seal: Release",
     "pageid": 66782,
     "hand_seals": [
-      "Dog → Rat → Bird → Snake → Boar → Tiger → Dragon → Monkey → Snake → Ox → Ram → Bird"
+      "Dog",
+      "Rat",
+      "Bird",
+      "Snake",
+      "Boar",
+      "Tiger",
+      "Dragon",
+      "Monkey",
+      "Snake",
+      "Ox",
+      "Ram",
+      "Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Ged%C5%8D_Seal:_Release",
     "classification": [
@@ -2973,7 +3403,11 @@
     "name": "Genjutsu: Flower Petal Escape",
     "pageid": 5726,
     "hand_seals": [
-      "Tiger → Boar → Tiger → Horse → Ox"
+      "Tiger",
+      "Boar",
+      "Tiger",
+      "Horse",
+      "Ox"
     ],
     "url": "https://naruto.fandom.com/wiki/Genjutsu:_Flower_Petal_Escape",
     "classification": [
@@ -2990,14 +3424,16 @@
     "name": "Genjutsu: Ghost Fire",
     "pageid": 293623,
     "hand_seals": [
-      "Ox -> Ram"
+      "Ox",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Genjutsu:_Ghost_Fire",
     "classification": [
       "Genjutsu"
     ],
     "nature": [
-      "Fire ReleaseYin Release"
+      "Fire Release",
+      "Yin Release"
     ],
     "rank": null,
     "class": "Supplementary",
@@ -3024,7 +3460,11 @@
     "name": "Ground Splitting Technique",
     "pageid": 5330,
     "hand_seals": [
-      "Rabbit → Boar → Rat → Horse → Tiger"
+      "Rabbit",
+      "Boar",
+      "Rat",
+      "Horse",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Ground_Splitting_Technique",
     "classification": [
@@ -3060,7 +3500,10 @@
     "name": "Harem Technique",
     "pageid": 2013,
     "hand_seals": [
-      "Ram → Snake → Tiger → Ram"
+      "Ram",
+      "Snake",
+      "Tiger",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Harem_Technique",
     "classification": [
@@ -3076,7 +3519,8 @@
     "name": "Haze Clone Technique",
     "pageid": 4988,
     "hand_seals": [
-      "Dog → Tiger"
+      "Dog",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Haze_Clone_Technique",
     "classification": [
@@ -3092,7 +3536,14 @@
     "name": "Haze Ninja Art: Forbidden Technique: Afterlife Opening Gate",
     "pageid": 288523,
     "hand_seals": [
-      "Horse → Ox → Dog → Horse → Dragon → Ox → Monkey → Snake"
+      "Horse",
+      "Ox",
+      "Dog",
+      "Horse",
+      "Dragon",
+      "Ox",
+      "Monkey",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Haze_Ninja_Art:_Forbidden_Technique:_Afterlife_Opening_Gate",
     "classification": [
@@ -3109,7 +3560,14 @@
     "name": "Haze Ninja Art: Forbidden Technique: Ephemeral Life",
     "pageid": 288387,
     "hand_seals": [
-      "Ox → Snake → Horse → Dog → Ox → Monkey → Dragon → Bird"
+      "Ox",
+      "Snake",
+      "Horse",
+      "Dog",
+      "Ox",
+      "Monkey",
+      "Dragon",
+      "Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Haze_Ninja_Art:_Forbidden_Technique:_Ephemeral_Life",
     "classification": [
@@ -3142,7 +3600,9 @@
     "name": "Healing Technique",
     "pageid": 49312,
     "hand_seals": [
-      "Rat → Ram → Dog"
+      "Rat",
+      "Ram",
+      "Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Healing_Technique",
     "classification": [
@@ -3188,7 +3648,8 @@
     "name": "Hiden: Hiding in Scale Powder Technique",
     "pageid": 86621,
     "hand_seals": [
-      "Tiger → Clap hands"
+      "Tiger",
+"Clap hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Hiden:_Hiding_in_Scale_Powder_Technique",
     "classification": [
@@ -3251,7 +3712,9 @@
     "name": "Hiding in Mist Technique",
     "pageid": 3282,
     "hand_seals": [
-      "Seal of Confrontation or Ox → Snake → Ram"
+      "Seal of Confrontation or Ox",
+"Snake",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Hiding_in_Mist_Technique",
     "classification": [
@@ -3298,7 +3761,13 @@
     "name": "Hokage-Style Sixty-Year-Old Technique — Kakuan Entering Society with Bliss-Bringing Hands",
     "pageid": 3241,
     "hand_seals": [
-      "Boar → Dog → Bird → Monkey → Ram → Monkey → Tiger"
+      "Boar",
+"Dog",
+"Bird",
+"Monkey",
+"Ram",
+"Monkey",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Hokage-Style_Sixty-Year-Old_Technique_%E2%80%94_Kakuan_Entering_Society_with_Bliss-Bringing_Hands",
     "classification": [
@@ -3334,7 +3803,10 @@
     "name": "Hurricane Thunderclap",
     "pageid": 35999,
     "hand_seals": [
-      "Monkey → Bird → Dog → Boar"
+      "Monkey",
+"Bird",
+"Dog",
+"Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Hurricane_Thunderclap",
     "classification": [
@@ -3366,7 +3838,11 @@
     "name": "Ice Release: Black Dragon Blizzard",
     "pageid": 6190,
     "hand_seals": [
-      "Bird → Snake → Monkey → Horse → Dog"
+      "Bird",
+"Snake",
+"Monkey",
+"Horse",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Ice_Release:_Black_Dragon_Blizzard",
     "classification": [
@@ -3419,7 +3895,12 @@
     "name": "Ice Release: One Horned White Whale",
     "pageid": 6188,
     "hand_seals": [
-      "Ram → Bird → Monkey → Horse → Snake → Dog"
+      "Ram",
+"Bird",
+"Monkey",
+"Horse",
+"Snake",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Ice_Release:_One_Horned_White_Whale",
     "classification": [
@@ -3453,7 +3934,10 @@
     "name": "Ice Release: Tearing Dragon Fierce Tiger",
     "pageid": 6185,
     "hand_seals": [
-      "Tiger → Technique specific hand seal → Boar → Dog"
+      "Tiger",
+"Technique specific hand seal",
+"Boar",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Ice_Release:_Tearing_Dragon_Fierce_Tiger",
     "classification": [
@@ -3488,7 +3972,12 @@
     "name": "Ice Release: Twin Dragon Blizzard",
     "pageid": 9880,
     "hand_seals": [
-      "Snake → Rat → Dragon → Monkey → Tiger → Dog"
+      "Snake",
+"Rat",
+"Dragon",
+"Monkey",
+"Tiger",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Ice_Release:_Twin_Dragon_Blizzard",
     "classification": [
@@ -3505,7 +3994,9 @@
     "name": "Ice Release: Wolf Fang Avalanche Technique",
     "pageid": 6189,
     "hand_seals": [
-      "Rat → Hare → Dog"
+      "Rat",
+"Hare",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Ice_Release:_Wolf_Fang_Avalanche_Technique",
     "classification": [
@@ -3556,7 +4047,8 @@
     "name": "Insect Deception Technique",
     "pageid": 72086,
     "hand_seals": [
-      "Tiger → Technique specific seal"
+      "Tiger",
+"Technique specific seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Insect_Deception_Technique",
     "classification": [
@@ -3573,7 +4065,11 @@
     "name": "Insect Jar Technique",
     "pageid": 5311,
     "hand_seals": [
-      "Boar → Monkey → Dragon → Ram → Dog"
+      "Boar",
+"Monkey",
+"Dragon",
+"Ram",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Insect_Jar_Technique",
     "classification": [
@@ -3607,7 +4103,9 @@
     "name": "Izanagi",
     "pageid": 34470,
     "hand_seals": [
-      "Hare → Boar → Ram"
+      "Hare",
+"Boar",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Izanagi",
     "classification": [
@@ -3627,7 +4125,8 @@
     "name": "Jade Crystal Clone Technique",
     "pageid": 11776,
     "hand_seals": [
-      "Horse → Ram"
+      "Horse",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Jade_Crystal_Clone_Technique",
     "classification": [
@@ -3716,7 +4215,8 @@
     "name": "Lava Release: Ash Stone Seal Technique",
     "pageid": 182144,
     "hand_seals": [
-      "Tiger → Rat"
+      "Tiger",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Lava_Release:_Ash_Stone_Seal_Technique",
     "classification": [
@@ -3752,7 +4252,12 @@
     "name": "Lava Release: Melting Apparition Technique",
     "pageid": 24365,
     "hand_seals": [
-      "Dog → Boar → Tiger → Ox → Rat → Bird"
+      "Dog",
+"Boar",
+"Tiger",
+"Ox",
+"Rat",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Lava_Release:_Melting_Apparition_Technique",
     "classification": [
@@ -3770,7 +4275,9 @@
     "name": "Lava Release: Planet-Branding Blast",
     "pageid": 278939,
     "hand_seals": [
-      "Dog → Hare → Tiger"
+      "Dog",
+"Hare",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Lava_Release:_Planet-Branding_Blast",
     "classification": [
@@ -3788,7 +4295,10 @@
     "name": "Lava Release: Quicklime Congealing Technique",
     "pageid": 58034,
     "hand_seals": [
-      "Rabbit → Ox → Dog → Snake"
+      "Rabbit",
+"Ox",
+"Dog",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Lava_Release:_Quicklime_Congealing_Technique",
     "classification": [
@@ -3824,7 +4334,10 @@
     "name": "Lava Release: Scorching Stream Rock Technique",
     "pageid": 86620,
     "hand_seals": [
-      "Dog → Ox → Hare → Snake"
+      "Dog",
+"Ox",
+"Hare",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Lava_Release:_Scorching_Stream_Rock_Technique",
     "classification": [
@@ -3842,7 +4355,10 @@
     "name": "Lightning Ball",
     "pageid": 9394,
     "hand_seals": [
-      "Bird → Snake → Monkey → Ram"
+      "Bird",
+"Snake",
+"Monkey",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Ball",
     "classification": [
@@ -3859,7 +4375,9 @@
     "name": "Lightning Burial: Banquet of Lightning",
     "pageid": 9398,
     "hand_seals": [
-      "Rabbit → Boar → Ram"
+      "Rabbit",
+"Boar",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Burial:_Banquet_of_Lightning",
     "classification": [
@@ -3876,7 +4394,9 @@
     "name": "Lightning Cutter",
     "pageid": 2931,
     "hand_seals": [
-      "Ox → Rabbit → Monkey"
+      "Ox",
+"Rabbit",
+"Monkey"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Cutter",
     "classification": [
@@ -3910,7 +4430,10 @@
     "name": "Lightning Rat Violent Quake",
     "pageid": 104599,
     "hand_seals": [
-      "Monkey → Ox → Boar → Tiger"
+      "Monkey",
+"Ox",
+"Boar",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Rat_Violent_Quake",
     "classification": [
@@ -3961,7 +4484,11 @@
     "name": "Lightning Release: Electromagnetic Murder",
     "pageid": 6146,
     "hand_seals": [
-      "Boar → Ram → Snake → Horse → Dragon"
+      "Boar",
+"Ram",
+"Snake",
+"Horse",
+"Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Electromagnetic_Murder",
     "classification": [
@@ -3995,7 +4522,11 @@
     "name": "Lightning Release: Four Pillar Bind",
     "pageid": 13206,
     "hand_seals": [
-      "Ram → Boar → Dog → Bird → Hare"
+      "Ram",
+"Boar",
+"Dog",
+"Bird",
+"Hare"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Four_Pillar_Bind",
     "classification": [
@@ -4012,7 +4543,10 @@
     "name": "Lightning Release: Heavenly Formation Lightning",
     "pageid": 288677,
     "hand_seals": [
-      "Monkey → Ram → Dragon → Hands clapped"
+      "Monkey",
+"Ram",
+"Dragon",
+"Hands clapped"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Heavenly_Formation_Lightning",
     "classification": [
@@ -4029,7 +4563,10 @@
     "name": "Lightning Release: Lightning Eel",
     "pageid": 293573,
     "hand_seals": [
-      "Ram → Ox → Bird → Snake"
+      "Ram",
+"Ox",
+"Bird",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Lightning_Eel",
     "classification": [
@@ -4046,7 +4583,10 @@
     "name": "Lightning Release: Lightning Illusion Flash of Lightning Pillar",
     "pageid": 22019,
     "hand_seals": [
-      "Ram → Horse → Snake → Tiger"
+      "Ram",
+"Horse",
+"Snake",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Lightning_Illusion_Flash_of_Lightning_Pillar",
     "classification": [
@@ -4063,7 +4603,10 @@
     "name": "Lightning Release: Lightning Net Technique",
     "pageid": 290285,
     "hand_seals": [
-      "Snake → Tiger → Boar → Tiger"
+      "Snake",
+"Tiger",
+"Boar",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Lightning_Net_Technique",
     "classification": [
@@ -4097,7 +4640,10 @@
     "name": "Lightning Release: Sixteen Pillar Bind",
     "pageid": 44707,
     "hand_seals": [
-      "Rat → Monkey → Horse → Tiger"
+      "Rat",
+"Monkey",
+"Horse",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Sixteen_Pillar_Bind",
     "classification": [
@@ -4114,7 +4660,8 @@
     "name": "Lightning Release: Snake Lightning",
     "pageid": 234743,
     "hand_seals": [
-      "Clap hands → Monkey"
+      "Clap hands",
+"Monkey"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Snake_Lightning",
     "classification": [
@@ -4131,7 +4678,10 @@
     "name": "Lightning Release: Spider Web",
     "pageid": 115040,
     "hand_seals": [
-      "Dog → Dragon → Rat → Ram"
+      "Dog",
+"Dragon",
+"Rat",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Spider_Web",
     "classification": [
@@ -4148,7 +4698,9 @@
     "name": "Lightning Release: Thunder Binding",
     "pageid": 7258,
     "hand_seals": [
-      "Ox → Horse → Dragon"
+      "Ox",
+"Horse",
+"Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Thunder_Binding",
     "classification": [
@@ -4166,7 +4718,12 @@
     "name": "Lightning Release: Thunderbolt",
     "pageid": 115593,
     "hand_seals": [
-      "Tiger → Snake → Tiger → Bird → Tiger → Ram"
+      "Tiger",
+"Snake",
+"Tiger",
+"Bird",
+"Tiger",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Thunderbolt",
     "classification": [
@@ -4183,7 +4740,9 @@
     "name": "Lightning Release: Thunderclap Arrow",
     "pageid": 244324,
     "hand_seals": [
-      "Ram → Dragon → Hare"
+      "Ram",
+"Dragon",
+"Hare"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Thunderclap_Arrow",
     "classification": [
@@ -4200,7 +4759,11 @@
     "name": "Lightning Release: Wave of Inspiration",
     "pageid": 22018,
     "hand_seals": [
-      "Rabbit → Dog → Boar → Ram → Rat"
+      "Rabbit",
+"Dog",
+"Boar",
+"Ram",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Release:_Wave_of_Inspiration",
     "classification": [
@@ -4217,7 +4780,9 @@
     "name": "Lightning Strike",
     "pageid": 104592,
     "hand_seals": [
-      "Tiger → Snake → Dog"
+      "Tiger",
+"Snake",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Lightning_Strike",
     "classification": [
@@ -4317,7 +4882,10 @@
     "name": "Medical Water Release: Water Scorpion",
     "pageid": 167046,
     "hand_seals": [
-      "Ram → Horse → Bird → Ram"
+      "Ram",
+"Horse",
+"Bird",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Medical_Water_Release:_Water_Scorpion",
     "classification": [
@@ -4414,7 +4982,10 @@
     "name": "Mind Clone Switch Technique",
     "pageid": 71323,
     "hand_seals": [
-      "Snake → Ox → Tiger → Ram"
+      "Snake",
+"Ox",
+"Tiger",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Mind_Clone_Switch_Technique",
     "classification": [
@@ -4466,7 +5037,8 @@
     "name": "Multi-Size Technique",
     "pageid": 2062,
     "hand_seals": [
-      "Ram → Special Seal"
+      "Ram",
+"Special Seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Multi-Size_Technique",
     "classification": [
@@ -4501,7 +5073,11 @@
     "name": "Multiple Infinite Embraces",
     "pageid": 38146,
     "hand_seals": [
-      "Tiger → Dog → Horse → Dragon → Boar"
+      "Tiger",
+"Dog",
+"Horse",
+"Dragon",
+"Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Multiple_Infinite_Embraces",
     "classification": [
@@ -4518,7 +5094,10 @@
     "name": "Multiple Phantom Shuriken",
     "pageid": 54363,
     "hand_seals": [
-      "Dog → Rabbit → Monkey → Clap Hands"
+      "Dog",
+"Rabbit",
+"Monkey",
+"Clap Hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Multiple_Phantom_Shuriken",
     "classification": [
@@ -4571,7 +5150,10 @@
     "name": "Murderous Grasp",
     "pageid": 21027,
     "hand_seals": [
-      "Tiger → Boar → Monkey → Tiger"
+      "Tiger",
+"Boar",
+"Monkey",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Murderous_Grasp",
     "classification": [
@@ -4621,7 +5203,8 @@
     "name": "Mystical Palm Technique",
     "pageid": 3106,
     "hand_seals": [
-      "Modified Ox → Tiger (varies)"
+      "Modified Ox",
+"Tiger (varies)"
     ],
     "url": "https://naruto.fandom.com/wiki/Mystical_Palm_Technique",
     "classification": [
@@ -4654,7 +5237,12 @@
     "name": "Needle Jizō",
     "pageid": 3276,
     "hand_seals": [
-      "Tiger → Horse → Boar → Ram → Rat → Snake"
+      "Tiger",
+"Horse",
+"Boar",
+"Ram",
+"Rat",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Needle_Jiz%C5%8D",
     "classification": [
@@ -4669,7 +5257,10 @@
     "name": "Net-Shaped Prison",
     "pageid": 85880,
     "hand_seals": [
-      "Boar → Ram → Dog → Rat"
+      "Boar",
+"Ram",
+"Dog",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Net-Shaped_Prison",
     "classification": [
@@ -4735,7 +5326,12 @@
     "name": "Ninja Art: Infinite Sea Watchtower",
     "pageid": 292163,
     "hand_seals": [
-      "Technique specific seal → Tiger → Technique specific seal → Technique specific seal → Rat → Hands clapped together"
+      "Technique specific seal",
+"Tiger",
+"Technique specific seal",
+"Technique specific seal",
+"Rat",
+"Hands clapped together"
     ],
     "url": "https://naruto.fandom.com/wiki/Ninja_Art:_Infinite_Sea_Watchtower",
     "classification": [
@@ -4752,7 +5348,8 @@
     "name": "Ninja Art: Moonlight Beauty",
     "pageid": 3999,
     "hand_seals": [
-      "Snake → Tiger"
+      "Snake",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Ninja_Art:_Moonlight_Beauty",
     "classification": [
@@ -4768,7 +5365,9 @@
     "name": "Ninja Art: Profusion of Flowers",
     "pageid": 2085,
     "hand_seals": [
-      "Dog → Technique specific seal → Tiger"
+      "Dog",
+"Technique specific seal",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Ninja_Art:_Profusion_of_Flowers",
     "classification": [
@@ -4831,7 +5430,8 @@
     "name": "Outer Path — Samsara of Heavenly Life Technique",
     "pageid": 15010,
     "hand_seals": [
-      "Ram → Snake"
+      "Ram",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Outer_Path_%E2%80%94_Samsara_of_Heavenly_Life_Technique",
     "classification": [
@@ -4850,7 +5450,9 @@
     "name": "Peacock Wisdom Queen",
     "pageid": 78301,
     "hand_seals": [
-      "Horse → Monkey or Hare → Ram"
+      "Horse",
+"Monkey or Hare",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Peacock_Wisdom_Queen",
     "classification": [
@@ -4882,7 +5484,12 @@
     "name": "Polar Particle Unsealing Technique",
     "pageid": 293680,
     "hand_seals": [
-      "Ox → Monkey → Rat → Snake → Tiger → Boar"
+      "Ox",
+"Monkey",
+"Rat",
+"Snake",
+"Tiger",
+"Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Polar_Particle_Unsealing_Technique",
     "classification": [],
@@ -4940,7 +5547,16 @@
     "name": "Quicksand Waterfall Flow",
     "pageid": 2037,
     "hand_seals": [
-      "Clap Hands → Boar → Monkey → Rat → Monkey → Horse → Dog → Ram → Horse → Clap Hands"
+      "Clap Hands",
+      "Boar",
+      "Monkey",
+      "Rat",
+      "Monkey",
+      "Horse",
+      "Dog",
+      "Ram",
+      "Horse",
+      "Clap Hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Quicksand_Waterfall_Flow",
     "classification": [
@@ -4955,7 +5571,12 @@
     "name": "Rain Tiger at Will Technique",
     "pageid": 8204,
     "hand_seals": [
-      "Bird → Rat → Ox → Monkey → Rat → Snake"
+      "Bird",
+      "Rat",
+      "Ox",
+      "Monkey",
+      "Rat",
+      "Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Rain_Tiger_at_Will_Technique",
     "classification": [
@@ -4972,7 +5593,12 @@
     "name": "Redaku Reincarnation Ninjutsu",
     "pageid": 288504,
     "hand_seals": [
-      "Rat → Ox → Monkey → Tiger → Boar → Dragon"
+      "Rat",
+      "Ox",
+      "Monkey",
+      "Tiger",
+      "Boar",
+      "Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Redaku_Reincarnation_Ninjutsu",
     "classification": [
@@ -4988,7 +5614,9 @@
     "name": "Rock Avalanche",
     "pageid": 9399,
     "hand_seals": [
-      "Snake → Upside down Tiger → Hands clapped together"
+      "Snake",
+      "Upside down Tiger",
+      "Hands clapped together"
     ],
     "url": "https://naruto.fandom.com/wiki/Rock_Avalanche",
     "classification": [
@@ -5005,7 +5633,10 @@
     "name": "Rock Clone Technique",
     "pageid": 57220,
     "hand_seals": [
-      "Ram → Monkey → Horse → Ram"
+      "Ram",
+      "Monkey",
+      "Horse",
+      "Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Rock_Clone_Technique",
     "classification": [
@@ -5023,7 +5654,11 @@
     "name": "Roof Tile Shuriken",
     "pageid": 3344,
     "hand_seals": [
-      "Tiger → Dragon → Rat → Horse → Tiger"
+      "Tiger",
+      "Dragon",
+      "Rat",
+      "Horse",
+      "Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Roof_Tile_Shuriken",
     "classification": [
@@ -5039,7 +5674,10 @@
     "name": "Sage Art: Five Fire Gods' Fan of Flames",
     "pageid": 286353,
     "hand_seals": [
-      "Tiger → Horse → Hare → Clap Hands"
+      "Tiger",
+      "Horse",
+      "Hare",
+      "Clap Hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Sage_Art:_Five_Fire_Gods%27_Fan_of_Flames",
     "classification": [
@@ -5125,7 +5763,9 @@
     "name": "Sage Art: White Rage Technique",
     "pageid": 92973,
     "hand_seals": [
-      "Bird → Rat → Bird"
+      "Bird",
+      "Rat",
+      "Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Sage_Art:_White_Rage_Technique",
     "classification": [
@@ -5192,7 +5832,8 @@
     "name": "Sand Cloak Technique",
     "pageid": 168266,
     "hand_seals": [
-      "Technique specific seal → Snake"
+      "Technique specific seal",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Sand_Cloak_Technique",
     "classification": [
@@ -5222,7 +5863,9 @@
     "name": "Sand Formation: Shisa",
     "pageid": 167052,
     "hand_seals": [
-      "Snake → Dog → Ram"
+      "Snake",
+"Dog",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Sand_Formation:_Shisa",
     "classification": [
@@ -5237,7 +5880,8 @@
     "name": "Sandstorm Technique",
     "pageid": 168261,
     "hand_seals": [
-      "Technique specific seal → Snake"
+      "Technique specific seal",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Sandstorm_Technique",
     "classification": [
@@ -5252,7 +5896,9 @@
     "name": "Scattering Thousand Crows Technique",
     "pageid": 8626,
     "hand_seals": [
-      "Rat → Boar → Tiger"
+      "Rat",
+"Boar",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Scattering_Thousand_Crows_Technique",
     "classification": [
@@ -5286,7 +5932,10 @@
     "name": "Sealed Binding Formation",
     "pageid": 5948,
     "hand_seals": [
-      "Monkey → Horse → Dog → Ram"
+      "Monkey",
+"Horse",
+"Dog",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Sealed_Binding_Formation",
     "classification": [
@@ -5337,7 +5986,8 @@
     "name": "Sealing Technique: Frog Suppression",
     "pageid": 258630,
     "hand_seals": [
-      "Mirrored Ram → Snake"
+      "Mirrored Ram",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Sealing_Technique:_Frog_Suppression",
     "classification": [
@@ -5353,7 +6003,12 @@
     "name": "Sealing Technique: Phantom Dragons Nine Consuming Seals",
     "pageid": 3177,
     "hand_seals": [
-      "Tiger → Snake → Rat → Ox → Dog → Ram"
+      "Tiger",
+"Snake",
+"Rat",
+"Ox",
+"Dog",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Sealing_Technique:_Phantom_Dragons_Nine_Consuming_Seals",
     "classification": [
@@ -5369,7 +6024,12 @@
     "name": "Sealing Technique: Three Directions Seal",
     "pageid": 9972,
     "hand_seals": [
-      "Ram → Dragon → Horse → Rabbit → Bird → Hands clapped"
+      "Ram",
+"Dragon",
+"Horse",
+"Rabbit",
+"Bird",
+"Hands clapped"
     ],
     "url": "https://naruto.fandom.com/wiki/Sealing_Technique:_Three_Directions_Seal",
     "classification": [
@@ -5401,7 +6061,10 @@
     "name": "Secret Technique: Insect Cocoon",
     "pageid": 11397,
     "hand_seals": [
-      "Ox → Dog → Bird → Ram"
+      "Ox",
+"Dog",
+"Bird",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Secret_Technique:_Insect_Cocoon",
     "classification": [
@@ -5433,7 +6096,9 @@
     "name": "Secret Technique: Mist Rain",
     "pageid": 36605,
     "hand_seals": [
-      "Ram → Dog → Rat"
+      "Ram",
+"Dog",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Secret_Technique:_Mist_Rain",
     "classification": [
@@ -5468,7 +6133,9 @@
     "name": "Self-Healing Technique",
     "pageid": 278942,
     "hand_seals": [
-      "Boar → Ox → Bird"
+      "Boar",
+"Ox",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Self-Healing_Technique",
     "classification": [
@@ -5620,7 +6287,8 @@
     "name": "Shadow Sewing Technique",
     "pageid": 3270,
     "hand_seals": [
-      "Rat → Bird"
+      "Rat",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Shadow_Sewing_Technique",
     "classification": [
@@ -5638,7 +6306,9 @@
     "name": "Shadow–Neck Binding Technique",
     "pageid": 4247,
     "hand_seals": [
-      "Dragon → Tiger → Rat"
+      "Dragon",
+"Tiger",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Shadow%E2%80%93Neck_Binding_Technique",
     "classification": [
@@ -5656,7 +6326,24 @@
     "name": "Shrine Seal",
     "pageid": 21088,
     "hand_seals": [
-      "Hatsu → Jin → Kai → Min → Shin → Gan → Reppyo → Shōzen → Mika → Dan → Raku → Shō → Fu → Sai → Dan → Gik → Ragu → Bagi"
+      "Hatsu",
+"Jin",
+"Kai",
+"Min",
+"Shin",
+"Gan",
+"Reppyo",
+"Shōzen",
+"Mika",
+"Dan",
+"Raku",
+"Shō",
+"Fu",
+"Sai",
+"Dan",
+"Gik",
+"Ragu",
+"Bagi"
     ],
     "url": "https://naruto.fandom.com/wiki/Shrine_Seal",
     "classification": [
@@ -5672,7 +6359,15 @@
     "name": "Shrine Seal: Release",
     "pageid": 59073,
     "hand_seals": [
-      "Min → Shin → Gan → Reppyo → Shōzen → Mika → Dan → Raku → Shō"
+      "Min",
+"Shin",
+"Gan",
+"Reppyo",
+"Shōzen",
+"Mika",
+"Dan",
+"Raku",
+"Shō"
     ],
     "url": "https://naruto.fandom.com/wiki/Shrine_Seal:_Release",
     "classification": [
@@ -5687,7 +6382,14 @@
     "name": "Shuriken Shadow Clone Technique",
     "pageid": 4514,
     "hand_seals": [
-      "Ox → Dog → Dragon → Rat → Dog → Boar → Snake → Tiger"
+      "Ox",
+"Dog",
+"Dragon",
+"Rat",
+"Dog",
+"Boar",
+"Snake",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Shuriken_Shadow_Clone_Technique",
     "classification": [
@@ -5704,7 +6406,9 @@
     "name": "Sickle Weasel Technique",
     "pageid": 2167,
     "hand_seals": [
-      "Snake → Dragon → Bird"
+      "Snake",
+"Dragon",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Sickle_Weasel_Technique",
     "classification": [
@@ -5739,7 +6443,10 @@
     "name": "Six Red Yang Formation",
     "pageid": 116560,
     "hand_seals": [
-      "Snake → Ram → Technique Specific Seal → Mirrored Ram"
+      "Snake",
+"Ram",
+"Technique Specific Seal",
+"Mirrored Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Six_Red_Yang_Formation",
     "classification": [
@@ -5758,7 +6465,11 @@
     "name": "Sound Wave Technique",
     "pageid": 120426,
     "hand_seals": [
-      "Tiger → Ox → Dog → Rabbit → Snake"
+      "Tiger",
+"Ox",
+"Dog",
+"Rabbit",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Sound_Wave_Technique",
     "classification": [
@@ -5804,7 +6515,12 @@
     "name": "Spirit Transformation Technique",
     "pageid": 68581,
     "hand_seals": [
-      "Tiger → Ram → Rat → Horse → Boar → Hare"
+      "Tiger",
+"Ram",
+"Rat",
+"Horse",
+"Boar",
+"Hare"
     ],
     "url": "https://naruto.fandom.com/wiki/Spirit_Transformation_Technique",
     "classification": [
@@ -5819,7 +6535,10 @@
     "name": "Storm Release Secret Technique: Demon Dragon Storm",
     "pageid": 25638,
     "hand_seals": [
-      "Rat → Dragon → Hare → Tiger"
+      "Rat",
+"Dragon",
+"Hare",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Storm_Release_Secret_Technique:_Demon_Dragon_Storm",
     "classification": [
@@ -5856,7 +6575,11 @@
     "name": "Storm Release: Laser Circus",
     "pageid": 23232,
     "hand_seals": [
-      "Rat → Tiger → Dog → Snake → Dragon"
+      "Rat",
+"Tiger",
+"Dog",
+"Snake",
+"Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Storm_Release:_Laser_Circus",
     "classification": [
@@ -5874,7 +6597,9 @@
     "name": "Storm Release: Thunder Cloud Inner Wave",
     "pageid": 25645,
     "hand_seals": [
-      "Technique specific seal → Boar → Horse"
+      "Technique specific seal",
+"Boar",
+"Horse"
     ],
     "url": "https://naruto.fandom.com/wiki/Storm_Release:_Thunder_Cloud_Inner_Wave",
     "classification": [
@@ -5892,7 +6617,10 @@
     "name": "String Bean Binding Illusion",
     "pageid": 39870,
     "hand_seals": [
-      "Dog → Hare → Snake → Ram"
+      "Dog",
+"Hare",
+"Snake",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/String_Bean_Binding_Illusion",
     "classification": [
@@ -5927,7 +6655,11 @@
     "name": "Summoning Technique",
     "pageid": 2468,
     "hand_seals": [
-      "Boar → Dog → Bird → Monkey → Ram"
+      "Boar",
+"Dog",
+"Bird",
+"Monkey",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Summoning_Technique",
     "classification": [
@@ -5961,7 +6693,10 @@
     "name": "Summoning: Earth Release: Tracking Fang Technique",
     "pageid": 3232,
     "hand_seals": [
-      "Tiger → Snake → Dragon → Dog"
+      "Tiger",
+"Snake",
+"Dragon",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Summoning:_Earth_Release:_Tracking_Fang_Technique",
     "classification": [
@@ -5979,7 +6714,11 @@
     "name": "Summoning: Impure World Reincarnation",
     "pageid": 3354,
     "hand_seals": [
-      "Tiger → Snake → Dog → Dragon → Clap hands"
+      "Tiger",
+"Snake",
+"Dog",
+"Dragon",
+"Clap hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Summoning:_Impure_World_Reincarnation",
     "classification": [
@@ -5997,7 +6736,10 @@
     "name": "Summoning: Iron Maiden",
     "pageid": 44705,
     "hand_seals": [
-      "Boar → Dog → Bird → Tiger"
+      "Boar",
+"Dog",
+"Bird",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Summoning:_Iron_Maiden",
     "classification": [
@@ -6013,7 +6755,11 @@
     "name": "Summoning: Rainwater Gate",
     "pageid": 165423,
     "hand_seals": [
-      "Boar → Dog → Bird → Monkey → Slam hand on the ground"
+      "Boar",
+"Dog",
+"Bird",
+"Monkey",
+"Slam hand on the ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Summoning:_Rainwater_Gate",
     "classification": [
@@ -6045,7 +6791,14 @@
     "name": "Summoning: Toad Mouth Bind",
     "pageid": 3274,
     "hand_seals": [
-      "Snake → Boar → Rat → Dragon → Boar → Dragon → Tiger → Both palms on ground"
+      "Snake",
+"Boar",
+"Rat",
+"Dragon",
+"Boar",
+"Dragon",
+"Tiger",
+"Both palms on ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Summoning:_Toad_Mouth_Bind",
     "classification": [
@@ -6061,7 +6814,11 @@
     "name": "Summoning: Torture Chamber",
     "pageid": 44706,
     "hand_seals": [
-      "Boar → Dog → Bird → Monkey → Ram"
+      "Boar",
+"Dog",
+"Bird",
+"Monkey",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Summoning:_Torture_Chamber",
     "classification": [
@@ -6111,7 +6868,9 @@
     "name": "Swift Wind Wall",
     "pageid": 212230,
     "hand_seals": [
-      "Ox → Dog → Rat"
+      "Ox",
+"Dog",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Swift_Wind_Wall",
     "classification": [
@@ -6143,7 +6902,10 @@
     "name": "Telegram Flash",
     "pageid": 36004,
     "hand_seals": [
-      "Rabbit → Rat → Horse → Ram"
+      "Rabbit",
+"Rat",
+"Horse",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Telegram_Flash",
     "classification": [
@@ -6195,7 +6957,10 @@
     "name": "Tenseigan Chakra Mode",
     "pageid": 157767,
     "hand_seals": [
-      "Ram → Tiger → Boar → Tiger"
+      "Ram",
+"Tiger",
+"Boar",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Tenseigan_Chakra_Mode",
     "classification": [
@@ -6213,7 +6978,16 @@
     "name": "Third Eye",
     "pageid": 3363,
     "hand_seals": [
-      "Snake → Monkey → Rat → Monkey → Bird → Monkey → Dragon → Monkey → Rat → Monkey"
+      "Snake",
+"Monkey",
+"Rat",
+"Monkey",
+"Bird",
+"Monkey",
+"Dragon",
+"Monkey",
+"Rat",
+"Monkey"
     ],
     "url": "https://naruto.fandom.com/wiki/Third_Eye",
     "classification": [
@@ -6228,7 +7002,13 @@
     "name": "Thousand Bee Stings Technique",
     "pageid": 11853,
     "hand_seals": [
-      "Snake → Ox → Dog → Ram → Bird → Horse → Tiger"
+      "Snake",
+"Ox",
+"Dog",
+"Ram",
+"Bird",
+"Horse",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Thousand_Bee_Stings_Technique",
     "classification": [
@@ -6279,7 +7059,10 @@
     "name": "Thunderswords Technique: Remote Control",
     "pageid": 247520,
     "hand_seals": [
-      "Ox → Dragon → Monkey → Ram"
+      "Ox",
+"Dragon",
+"Monkey",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Thunderswords_Technique:_Remote_Control",
     "classification": [
@@ -6298,7 +7081,11 @@
     "name": "Time Reversal Technique",
     "pageid": 2088,
     "hand_seals": [
-      "Dog → Snake → Ox → Bird → Tiger"
+      "Dog",
+"Snake",
+"Ox",
+"Bird",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Time_Reversal_Technique",
     "classification": [
@@ -6315,7 +7102,8 @@
     "name": "Toad Smoke Technique",
     "pageid": 291449,
     "hand_seals": [
-      "Tiger → Rabbit"
+      "Tiger",
+"Rabbit"
     ],
     "url": "https://naruto.fandom.com/wiki/Toad_Smoke_Technique",
     "classification": [
@@ -6348,7 +7136,9 @@
     "name": "Tornado of Water",
     "pageid": 9527,
     "hand_seals": [
-      "Ram → Horse → Bird"
+      "Ram",
+"Horse",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Tornado_of_Water",
     "classification": [
@@ -6398,7 +7188,10 @@
     "name": "Tracking Technique",
     "pageid": 292117,
     "hand_seals": [
-      "Dog → Boar → Rat → Tiger"
+      "Dog",
+"Boar",
+"Rat",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Tracking_Technique",
     "classification": [
@@ -6414,7 +7207,9 @@
     "name": "Transformation Technique",
     "pageid": 2174,
     "hand_seals": [
-      "Dog → Boar → Ram"
+      "Dog",
+"Boar",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Transformation_Technique",
     "classification": [
@@ -6430,7 +7225,10 @@
     "name": "True Fire of Samadhi",
     "pageid": 244329,
     "hand_seals": [
-      "Tiger → Dog → Horse → Rat"
+      "Tiger",
+"Dog",
+"Horse",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/True_Fire_of_Samadhi",
     "classification": [
@@ -6480,7 +7278,12 @@
     "name": "Twin Rising Dragons",
     "pageid": 4118,
     "hand_seals": [
-      "Tiger → Dragon → Monkey → Hare → Snake → Cross arms"
+      "Tiger",
+"Dragon",
+"Monkey",
+"Hare",
+"Snake",
+"Cross arms"
     ],
     "url": "https://naruto.fandom.com/wiki/Twin_Rising_Dragons",
     "classification": [
@@ -6564,7 +7367,13 @@
     "name": "Uzumaki Sealing Technique",
     "pageid": 90666,
     "hand_seals": [
-      "Rat → Ox → Dog → Dog → Clap hands → Boar → Slam hand on the ground"
+      "Rat",
+"Ox",
+"Dog",
+"Dog",
+"Clap hands",
+"Boar",
+"Slam hand on the ground"
     ],
     "url": "https://naruto.fandom.com/wiki/Uzumaki_Sealing_Technique",
     "classification": [
@@ -6596,7 +7405,8 @@
     "name": "Water Attacking Gorgon",
     "pageid": 9867,
     "hand_seals": [
-      "Dragon → Tiger"
+      "Dragon",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Attacking_Gorgon",
     "classification": [
@@ -6648,7 +7458,16 @@
     "name": "Water Prison Technique",
     "pageid": 2467,
     "hand_seals": [
-      "Snake → Ram → Horse → Hare → Ram → Horse → Hare → Hands spread in front palms out or Snake → Ox → Clap Hands"
+      "Snake",
+"Ram",
+"Horse",
+"Hare",
+"Ram",
+"Horse",
+"Hare",
+"Hands spread in front palms out or Snake",
+"Ox",
+"Clap Hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Prison_Technique",
     "classification": [
@@ -6665,7 +7484,10 @@
     "name": "Water Release Genjutsu: Demonic Phantom Fog Prison",
     "pageid": 61215,
     "hand_seals": [
-      "Tiger → Dog → Ox → Snake"
+      "Tiger",
+"Dog",
+"Ox",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release_Genjutsu:_Demonic_Phantom_Fog_Prison",
     "classification": [
@@ -6700,7 +7522,9 @@
     "name": "Water Release: Black Rain Technique",
     "pageid": 7300,
     "hand_seals": [
-      "Ram → Snake → Tiger"
+      "Ram",
+"Snake",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Black_Rain_Technique",
     "classification": [
@@ -6717,7 +7541,9 @@
     "name": "Water Release: Clear Mirror Still Water",
     "pageid": 292319,
     "hand_seals": [
-      "Dog → Snake → Ram"
+      "Dog",
+"Snake",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Clear_Mirror_Still_Water",
     "classification": [
@@ -6734,7 +7560,9 @@
     "name": "Water Release: Cold Sky Water Attack",
     "pageid": 29576,
     "hand_seals": [
-      "Ox → Horse → Ram"
+      "Ox",
+"Horse",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Cold_Sky_Water_Attack",
     "classification": [
@@ -6768,7 +7596,11 @@
     "name": "Water Release: Falling Rain Needles",
     "pageid": 285678,
     "hand_seals": [
-      "Tiger → Snake → Tiger → Snake → Hare"
+      "Tiger",
+"Snake",
+"Tiger",
+"Snake",
+"Hare"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Falling_Rain_Needles",
     "classification": [
@@ -6802,7 +7634,18 @@
     "name": "Water Release: Four Sharks Rain",
     "pageid": 91808,
     "hand_seals": [
-      "Ram → Clone seal → Dog → Technique specific seal → Rat → Ram → Clone seal → Dog → Technique specific seal → Rat → Ram → Clap hands"
+      "Ram",
+"Clone seal",
+"Dog",
+"Technique specific seal",
+"Rat",
+"Ram",
+"Clone seal",
+"Dog",
+"Technique specific seal",
+"Rat",
+"Ram",
+"Clap hands"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Four_Sharks_Rain",
     "classification": [
@@ -6819,7 +7662,10 @@
     "name": "Water Release: Furious Roaring Tornado",
     "pageid": 292636,
     "hand_seals": [
-      "Dog → Bird → Snake → Tiger"
+      "Dog",
+"Bird",
+"Snake",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Furious_Roaring_Tornado",
     "classification": [
@@ -6853,7 +7699,9 @@
     "name": "Water Release: Great Shark Bullet Technique",
     "pageid": 29073,
     "hand_seals": [
-      "Clap Hands Together → Snake → Technique Specific Seal"
+      "Clap Hands Together",
+"Snake",
+"Technique Specific Seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Great_Shark_Bullet_Technique",
     "classification": [
@@ -6871,7 +7719,9 @@
     "name": "Water Release: Great Water Arm Technique",
     "pageid": 9862,
     "hand_seals": [
-      "Dragon → Bird → Dog"
+      "Dragon",
+"Bird",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Great_Water_Arm_Technique",
     "classification": [
@@ -6889,7 +7739,11 @@
     "name": "Water Release: Great Waterfall Flow Technique",
     "pageid": 7919,
     "hand_seals": [
-      "Boar → Dog → Bird → Monkey → Ram"
+      "Boar",
+"Dog",
+"Bird",
+"Monkey",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Great_Waterfall_Flow_Technique",
     "classification": [
@@ -6906,7 +7760,24 @@
     "name": "Water Release: Great Waterfall Technique",
     "pageid": 3260,
     "hand_seals": [
-      "Tiger → Ox → Monkey → Rabbit → Ram → Boar → Ox → Horse → Monkey → Tiger → Dog → Tiger → Snake → Tiger → Ox → Monkey → Rabbit → Bird"
+      "Tiger",
+"Ox",
+"Monkey",
+"Rabbit",
+"Ram",
+"Boar",
+"Ox",
+"Horse",
+"Monkey",
+"Tiger",
+"Dog",
+"Tiger",
+"Snake",
+"Tiger",
+"Ox",
+"Monkey",
+"Rabbit",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Great_Waterfall_Technique",
     "classification": [
@@ -6957,7 +7828,10 @@
     "name": "Water Release: Hail Barrage",
     "pageid": 188188,
     "hand_seals": [
-      "Dragon → Dog → Monkey → Ox"
+      "Dragon",
+"Dog",
+"Monkey",
+"Ox"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Hail_Barrage",
     "classification": [
@@ -7009,7 +7883,10 @@
     "name": "Water Release: Rising Water Slicer",
     "pageid": 9868,
     "hand_seals": [
-      "Tiger or Dog → Horse → Tiger → Rat"
+      "Tiger or Dog",
+"Horse",
+"Tiger",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Rising_Water_Slicer",
     "classification": [
@@ -7026,7 +7903,12 @@
     "name": "Water Release: Snake's Mouth",
     "pageid": 6145,
     "hand_seals": [
-      "Monkey → Rat → Tiger → Dragon → Horse → Dragon"
+      "Monkey",
+"Rat",
+"Tiger",
+"Dragon",
+"Horse",
+"Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Snake%27s_Mouth",
     "classification": [
@@ -7043,7 +7925,8 @@
     "name": "Water Release: Starch Syrup Capturing Field",
     "pageid": 8409,
     "hand_seals": [
-      "Ram → Tiger"
+      "Ram",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Starch_Syrup_Capturing_Field",
     "classification": [
@@ -7094,7 +7977,9 @@
     "name": "Water Release: Tearing Torrent",
     "pageid": 3242,
     "hand_seals": [
-      "Boar → Dog → Ram"
+      "Boar",
+"Dog",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Tearing_Torrent",
     "classification": [
@@ -7111,7 +7996,11 @@
     "name": "Water Release: Transform-at-Will",
     "pageid": 189735,
     "hand_seals": [
-      "Boar → Ram → Dog → Dragon → Tiger"
+      "Boar",
+"Ram",
+"Dog",
+"Dragon",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Transform-at-Will",
     "classification": [
@@ -7128,7 +8017,10 @@
     "name": "Water Release: Water Army Water Demon Technique",
     "pageid": 16599,
     "hand_seals": [
-      "Boar → Dog → Horse → Tiger"
+      "Boar",
+"Dog",
+"Horse",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Army_Water_Demon_Technique",
     "classification": [
@@ -7145,7 +8037,10 @@
     "name": "Water Release: Water Beast",
     "pageid": 58771,
     "hand_seals": [
-      "Dog → Horse → Monkey → Ram"
+      "Dog",
+"Horse",
+"Monkey",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Beast",
     "classification": [
@@ -7179,7 +8074,9 @@
     "name": "Water Release: Water Body",
     "pageid": 292468,
     "hand_seals": [
-      "Dog → Ram → Boar"
+      "Dog",
+"Ram",
+"Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Body",
     "classification": [
@@ -7213,7 +8110,10 @@
     "name": "Water Release: Water Bullet Technique",
     "pageid": 106093,
     "hand_seals": [
-      "Tiger → Ox → Tiger → Rat"
+      "Tiger",
+"Ox",
+"Tiger",
+"Rat"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Bullet_Technique",
     "classification": [
@@ -7247,7 +8147,10 @@
     "name": "Water Release: Water Dragon Biting Explosion",
     "pageid": 90771,
     "hand_seals": [
-      "Bird → Dog → Technique specific hand seal → Technique specific hand seal"
+      "Bird",
+"Dog",
+"Technique specific hand seal",
+"Technique specific hand seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Dragon_Biting_Explosion",
     "classification": [
@@ -7264,7 +8167,50 @@
     "name": "Water Release: Water Dragon Bullet Technique",
     "pageid": 3235,
     "hand_seals": [
-      "Ox → Monkey → Hare → Rat → Boar → Bird → Ox → Horse → Bird → Rat → Tiger → Dog → Tiger → Snake → Ox → Ram → Snake → Boar → Ram → Rat → Yang Water → Monkey → Bird → Dragon → Bird → Ox → Horse → Ram → Tiger → Snake → Rat → Monkey → Hare → Boar → Dragon → Ram → Rat → Ox → Monkey → Bird → Yang Water → Rat → Boar → Bird"
+      "Ox",
+"Monkey",
+"Hare",
+"Rat",
+"Boar",
+"Bird",
+"Ox",
+"Horse",
+"Bird",
+"Rat",
+"Tiger",
+"Dog",
+"Tiger",
+"Snake",
+"Ox",
+"Ram",
+"Snake",
+"Boar",
+"Ram",
+"Rat",
+"Yang Water",
+"Monkey",
+"Bird",
+"Dragon",
+"Bird",
+"Ox",
+"Horse",
+"Ram",
+"Tiger",
+"Snake",
+"Rat",
+"Monkey",
+"Hare",
+"Boar",
+"Dragon",
+"Ram",
+"Rat",
+"Ox",
+"Monkey",
+"Bird",
+"Yang Water",
+"Rat",
+"Boar",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Dragon_Bullet_Technique",
     "classification": [
@@ -7332,7 +8278,11 @@
     "name": "Water Release: Water Formation Wall",
     "pageid": 3233,
     "hand_seals": [
-      "Tiger → Snake → Rat → Snake → Tiger"
+      "Tiger",
+"Snake",
+"Rat",
+"Snake",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Formation_Wall",
     "classification": [
@@ -7349,7 +8299,11 @@
     "name": "Water Release: Water Gun",
     "pageid": 10769,
     "hand_seals": [
-      "Ram → Bird → Boar → Monkey → Ram"
+      "Ram",
+"Bird",
+"Boar",
+"Monkey",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Gun",
     "classification": [
@@ -7367,7 +8321,11 @@
     "name": "Water Release: Water Hail",
     "pageid": 268869,
     "hand_seals": [
-      "Snake → Tiger → Ox → Tiger → Dog"
+      "Snake",
+"Tiger",
+"Ox",
+"Tiger",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Hail",
     "classification": [
@@ -7384,7 +8342,12 @@
     "name": "Water Release: Water Severing Wave",
     "pageid": 117040,
     "hand_seals": [
-      "Tiger → Rat → Horse → Snake → Dragon → Hands clap"
+      "Tiger",
+"Rat",
+"Horse",
+"Snake",
+"Dragon",
+"Hands clap"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Severing_Wave",
     "classification": [
@@ -7401,7 +8364,16 @@
     "name": "Water Release: Water Shark Bullet Technique",
     "pageid": 3234,
     "hand_seals": [
-      "Tiger → Ox → Dragon → Hare → Dog → Bird → Rat → Clone seal → Dragon → Ram"
+      "Tiger",
+"Ox",
+"Dragon",
+"Hare",
+"Dog",
+"Bird",
+"Rat",
+"Clone seal",
+"Dragon",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Shark_Bullet_Technique",
     "classification": [
@@ -7418,7 +8390,10 @@
     "name": "Water Release: Water Snake Threads",
     "pageid": 293447,
     "hand_seals": [
-      "Monkey → Boar → Tiger → Snake"
+      "Monkey",
+"Boar",
+"Tiger",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Snake_Threads",
     "classification": [
@@ -7435,7 +8410,9 @@
     "name": "Water Release: Water Spikes",
     "pageid": 247848,
     "hand_seals": [
-      "Tiger → Dog → Snake"
+      "Tiger",
+"Dog",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Spikes",
     "classification": [
@@ -7452,7 +8429,10 @@
     "name": "Water Release: Water Suicide Bomb",
     "pageid": 110205,
     "hand_seals": [
-      "Tiger → Dog → Dragon → Snake"
+      "Tiger",
+"Dog",
+"Dragon",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Suicide_Bomb",
     "classification": [
@@ -7469,7 +8449,9 @@
     "name": "Water Release: Water Trumpet",
     "pageid": 58049,
     "hand_seals": [
-      "Dragon → Tiger → Hare"
+      "Dragon",
+"Tiger",
+"Hare"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Trumpet",
     "classification": [
@@ -7486,7 +8468,9 @@
     "name": "Water Release: Water Whip",
     "pageid": 36543,
     "hand_seals": [
-      "Rat → Dog → Ox"
+      "Rat",
+"Dog",
+"Ox"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water_Whip",
     "classification": [
@@ -7503,7 +8487,9 @@
     "name": "Water Release: Waterfall Basin Technique",
     "pageid": 3267,
     "hand_seals": [
-      "Boar → Dog → Ram"
+      "Boar",
+"Dog",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Waterfall_Basin_Technique",
     "classification": [
@@ -7520,7 +8506,12 @@
     "name": "Water Release: Water–Heavens Convergence",
     "pageid": 9421,
     "hand_seals": [
-      "Tiger → Dog → Monkey → Snake → Boar → Tiger"
+      "Tiger",
+"Dog",
+"Monkey",
+"Snake",
+"Boar",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Water%E2%80%93Heavens_Convergence",
     "classification": [
@@ -7537,7 +8528,9 @@
     "name": "Water Release: Wild Water Wave",
     "pageid": 9483,
     "hand_seals": [
-      "Dragon → Tiger → Hare"
+      "Dragon",
+"Tiger",
+"Hare"
     ],
     "url": "https://naruto.fandom.com/wiki/Water_Release:_Wild_Water_Wave",
     "classification": [
@@ -7616,7 +8609,11 @@
     "name": "Wind Release: Air Current Wild Dance",
     "pageid": 106019,
     "hand_seals": [
-      "Rabbit → Bird → Rat → Dragon → Bird"
+      "Rabbit",
+"Bird",
+"Rat",
+"Dragon",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Air_Current_Wild_Dance",
     "classification": [
@@ -7633,7 +8630,9 @@
     "name": "Wind Release: Breakthrough",
     "pageid": 234134,
     "hand_seals": [
-      "Dog → Horse → Bird"
+      "Dog",
+"Horse",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Breakthrough",
     "classification": [
@@ -7650,7 +8649,9 @@
     "name": "Wind Release: Divine Mountain Wind",
     "pageid": 9863,
     "hand_seals": [
-      "Tiger → Snake → Ram"
+      "Tiger",
+"Snake",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Divine_Mountain_Wind",
     "classification": [
@@ -7684,7 +8685,9 @@
     "name": "Wind Release: Dust Cloud Technique",
     "pageid": 69543,
     "hand_seals": [
-      "Horse → Monkey → Bird"
+      "Horse",
+"Monkey",
+"Bird"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Dust_Cloud_Technique",
     "classification": [
@@ -7701,7 +8704,9 @@
     "name": "Wind Release: Flower Scattering Dance",
     "pageid": 6296,
     "hand_seals": [
-      "Tiger → Hare → Dragon"
+      "Tiger",
+"Hare",
+"Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Flower_Scattering_Dance",
     "classification": [
@@ -7718,7 +8723,8 @@
     "name": "Wind Release: Flower Storm",
     "pageid": 293051,
     "hand_seals": [
-      "Snake → Boar"
+      "Snake",
+"Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Flower_Storm",
     "classification": [
@@ -7752,7 +8758,12 @@
     "name": "Wind Release: Gale Palm",
     "pageid": 4013,
     "hand_seals": [
-      "Snake → Ram → Boar → Horse → Bird → Clap Hands Together"
+      "Snake",
+"Ram",
+"Boar",
+"Horse",
+"Bird",
+"Clap Hands Together"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Gale_Palm",
     "classification": [
@@ -7769,8 +8780,15 @@
     "name": "Wind Release: Great Balloon",
     "pageid": 288678,
     "hand_seals": [
-      "Monkey → Ram → Bird → Hands clapped",
-      "or Rabbit → Technique specific seal → Rat → Dragon → Technique specific seal"
+      "Monkey",
+"Ram",
+"Bird",
+"Hands clapped",
+      "or Rabbit",
+"Technique specific seal",
+"Rat",
+"Dragon",
+"Technique specific seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Great_Balloon",
     "classification": [
@@ -7787,7 +8805,11 @@
     "name": "Wind Release: Great Breakthrough",
     "pageid": 3352,
     "hand_seals": [
-      "Tiger → Ox → Dog → Rabbit → Snake"
+      "Tiger",
+"Ox",
+"Dog",
+"Rabbit",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Great_Breakthrough",
     "classification": [
@@ -7857,7 +8879,10 @@
     "name": "Wind Release: Sand Cloud Whirlwind",
     "pageid": 163446,
     "hand_seals": [
-      "Bird → Monkey → Boar → Dragon"
+      "Bird",
+"Monkey",
+"Boar",
+"Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Sand_Cloud_Whirlwind",
     "classification": [
@@ -7875,7 +8900,10 @@
     "name": "Wind Release: Scattering Blossoms",
     "pageid": 293052,
     "hand_seals": [
-      "Bird → Tiger → Snake → Ram"
+      "Bird",
+"Tiger",
+"Snake",
+"Ram"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Scattering_Blossoms",
     "classification": [
@@ -7945,7 +8973,8 @@
     "name": "Wind Release: Vacuum Great Sphere",
     "pageid": 35435,
     "hand_seals": [
-      "Tiger → Dog"
+      "Tiger",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Vacuum_Great_Sphere",
     "classification": [
@@ -7962,7 +8991,11 @@
     "name": "Wind Release: Vacuum Serial Waves",
     "pageid": 35436,
     "hand_seals": [
-      "Rat → Snake → Horse → Snake → Dog"
+      "Rat",
+"Snake",
+"Horse",
+"Snake",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Vacuum_Serial_Waves",
     "classification": [
@@ -7979,7 +9012,9 @@
     "name": "Wind Release: Vacuum Sphere",
     "pageid": 32620,
     "hand_seals": [
-      "Rat → Rabbit → Dog"
+      "Rat",
+"Rabbit",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Vacuum_Sphere",
     "classification": [
@@ -7996,7 +9031,10 @@
     "name": "Wind Release: Vacuum Wave",
     "pageid": 18448,
     "hand_seals": [
-      "Rat → Snake → Horse → Dog"
+      "Rat",
+"Snake",
+"Horse",
+"Dog"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Vacuum_Wave",
     "classification": [
@@ -8049,7 +9087,11 @@
     "name": "Wind Release: Wind Cutter Technique",
     "pageid": 38696,
     "hand_seals": [
-      "Tiger → Rabbit → Dog → Ram → Dragon"
+      "Tiger",
+"Rabbit",
+"Dog",
+"Ram",
+"Dragon"
     ],
     "url": "https://naruto.fandom.com/wiki/Wind_Release:_Wind_Cutter_Technique",
     "classification": [
@@ -8081,7 +9123,10 @@
     "name": "Wire Bind",
     "pageid": 118315,
     "hand_seals": [
-      "Tiger → Boar → Dog → Tiger"
+      "Tiger",
+"Boar",
+"Dog",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Wire_Bind",
     "classification": [
@@ -8096,7 +9141,9 @@
     "name": "Wire Cage",
     "pageid": 21028,
     "hand_seals": [
-      "Tiger → Snake → Boar"
+      "Tiger",
+"Snake",
+"Boar"
     ],
     "url": "https://naruto.fandom.com/wiki/Wire_Cage",
     "classification": [
@@ -8111,7 +9158,9 @@
     "name": "Wood Clone Technique",
     "pageid": 3732,
     "hand_seals": [
-      "Tiger → Dog → Snake"
+      "Tiger",
+"Dog",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Clone_Technique",
     "classification": [
@@ -8130,7 +9179,9 @@
     "name": "Wood Release Secret Technique: Nativity of a World of Trees",
     "pageid": 5572,
     "hand_seals": [
-      "Tiger → Snake or Ram → Snake"
+      "Tiger",
+"Snake or Ram",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release_Secret_Technique:_Nativity_of_a_World_of_Trees",
     "classification": [
@@ -8203,7 +9254,11 @@
     "name": "Wood Release: Four-Pillar House Technique",
     "pageid": 4048,
     "hand_seals": [
-      "Snake → Rat → Ox → Ram → Snake"
+      "Snake",
+"Rat",
+"Ox",
+"Ram",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Four-Pillar_House_Technique",
     "classification": [
@@ -8221,7 +9276,10 @@
     "name": "Wood Release: Four-Pillar Prison Technique",
     "pageid": 3385,
     "hand_seals": [
-      "Ram → Ox → Boar → Snake"
+      "Ram",
+"Ox",
+"Boar",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Four-Pillar_Prison_Technique",
     "classification": [
@@ -8257,7 +9315,10 @@
     "name": "Wood Release: Great Forest Technique",
     "pageid": 9656,
     "hand_seals": [
-      "Tiger → Horse → Tiger → Snake"
+      "Tiger",
+"Horse",
+"Tiger",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Great_Forest_Technique",
     "classification": [
@@ -8275,7 +9336,8 @@
     "name": "Wood Release: Hotei Technique",
     "pageid": 109363,
     "hand_seals": [
-      "Clap hands together → Technique specific seal"
+      "Clap hands together",
+"Technique specific seal"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Hotei_Technique",
     "classification": [
@@ -8311,7 +9373,9 @@
     "name": "Wood Release: Serial Pillar Houses Technique",
     "pageid": 15336,
     "hand_seals": [
-      "Dog → Ram → Snake"
+      "Dog",
+"Ram",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Serial_Pillar_Houses_Technique",
     "classification": [
@@ -8366,7 +9430,9 @@
     "name": "Wood Release: Transformation",
     "pageid": 5989,
     "hand_seals": [
-      "Bird → Dog → Snake"
+      "Bird",
+"Dog",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Transformation",
     "classification": [
@@ -8384,7 +9450,11 @@
     "name": "Wood Release: Tree Bind Flourishing Burial",
     "pageid": 7262,
     "hand_seals": [
-      "Snake → Rat → Dragon → Dog → Tiger"
+      "Snake",
+"Rat",
+"Dragon",
+"Dog",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Tree_Bind_Flourishing_Burial",
     "classification": [
@@ -8402,7 +9472,11 @@
     "name": "Wood Release: Wood Dragon Technique",
     "pageid": 104190,
     "hand_seals": [
-      "Snake → Ram → Hare → Dog → Technique specific seal or Snake"
+      "Snake",
+"Ram",
+"Hare",
+"Dog",
+"Technique specific seal or Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Wood_Dragon_Technique",
     "classification": [
@@ -8421,7 +9495,10 @@
     "name": "Wood Release: Wood Human Technique",
     "pageid": 108990,
     "hand_seals": [
-      "Ox → Horse → Boar → Snake"
+      "Ox",
+"Horse",
+"Boar",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Wood_Human_Technique",
     "classification": [
@@ -8439,7 +9516,9 @@
     "name": "Wood Release: Wood Locking Wall",
     "pageid": 3712,
     "hand_seals": [
-      "Rat → Dog → Tiger"
+      "Rat",
+"Dog",
+"Tiger"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_Wood_Locking_Wall",
     "classification": [
@@ -8457,7 +9536,9 @@
     "name": "Wood Release: World of Trees Wall",
     "pageid": 33526,
     "hand_seals": [
-      "Bird → Hare → Snake"
+      "Bird",
+"Hare",
+"Snake"
     ],
     "url": "https://naruto.fandom.com/wiki/Wood_Release:_World_of_Trees_Wall",
     "classification": [
@@ -8475,7 +9556,9 @@
     "name": "Wooden Men Possession Turnover Manipulation Technique",
     "pageid": 10569,
     "hand_seals": [
-      "Ox → Horse → Rabbit"
+      "Ox",
+"Horse",
+"Rabbit"
     ],
     "url": "https://naruto.fandom.com/wiki/Wooden_Men_Possession_Turnover_Manipulation_Technique",
     "classification": [
@@ -8490,7 +9573,11 @@
     "name": "Wooden Puppet Manipulation Technique",
     "pageid": 10568,
     "hand_seals": [
-      "Snake → Horse → Dog → Ram → Monkey"
+      "Snake",
+"Horse",
+"Dog",
+"Ram",
+"Monkey"
     ],
     "url": "https://naruto.fandom.com/wiki/Wooden_Puppet_Manipulation_Technique",
     "classification": [

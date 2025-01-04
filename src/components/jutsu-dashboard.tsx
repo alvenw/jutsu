@@ -2,6 +2,7 @@ import { useState, useMemo } from "react"
 import { FilterSelect, SelectedFilters } from "./jutsu-filters"
 import { JutsuTable } from "./jutsu-table"
 import { Badge } from "@/components/ui/badge"
+import { ThemeToggle } from "@/components/theme-toggle"
 import jutsuData from "@/assets/jutsu.json"
 import { type Row } from "@tanstack/react-table"
 
@@ -102,14 +103,18 @@ export default function JutsuDashboard() {
       sortingFn: (rowA, rowB, columnId) => {
         const rankA = rowA.getValue(columnId) as string | undefined
         const rankB = rowB.getValue(columnId) as string | undefined
-        
-        // Handle cases where rank is undefined
-        if (!rankA && !rankB) return 0
-        if (!rankA) return 1  // Move undefined values to the end
-        if (!rankB) return -1
-        
-        // Use the RANK_ORDER mapping for defined ranks
-        return (RANK_ORDER[rankA] ?? 999) - (RANK_ORDER[rankB] ?? 999)
+
+        // Convert ranks to their numeric values for comparison
+        const valueA = rankA ? RANK_ORDER[rankA.replace('-rank', '')] : undefined
+        const valueB = rankB ? RANK_ORDER[rankB.replace('-rank', '')] : undefined
+
+        // Handle null/undefined cases
+        if (valueA === undefined && valueB === undefined) return 0
+        if (valueA === undefined) return 1
+        if (valueB === undefined) return -1
+
+        // Compare numeric values
+        return valueA - valueB
       },
     },
     {
@@ -182,7 +187,10 @@ export default function JutsuDashboard() {
 
   return (
     <div className="container mx-auto py-10">
-      <h1 className="text-4xl font-bold mb-8">Jutsu Database</h1>
+      <div className="flex items-center justify-between mb-8">
+        <h1 className="text-4xl font-bold">Jutsu Database</h1>
+        <ThemeToggle />
+      </div>
       
       <div className="flex flex-wrap gap-4 mb-8">
         <FilterSelect
