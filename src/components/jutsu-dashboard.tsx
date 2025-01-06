@@ -170,31 +170,28 @@ export default function JutsuDashboard() {
   const filteredData = useMemo(() => {
     if (!jutsuData) return []
     
-    return jutsuData.filter((jutsu) => {
+    return (jutsuData as Jutsu[]).filter((jutsu) => {
       return selectedFilters.every(({ category, value }) => {
-        const categoryKey = category.toLowerCase() as keyof Jutsu;
-        const jutsuValue = jutsu[categoryKey];
+        const categoryKey = category.toLowerCase();
         
-        if (jutsuValue === undefined || jutsuValue === null) return false;
-        
-        if (Array.isArray(jutsuValue)) {
-          return jutsuValue.some(v => {
-            if (typeof v !== 'string') {
-              console.error(`Unexpected type for ${categoryKey}:`, v);
-              return false;
-            }
-            return v.toLowerCase() === value.toLowerCase();
-          });
+        switch (categoryKey) {
+          case 'classification':
+            return jutsu.classification?.some(v => v.toLowerCase() === value.toLowerCase()) ?? false;
+          case 'nature':
+            return jutsu.nature?.some(v => v.toLowerCase() === value.toLowerCase()) ?? false;
+          case 'rank':
+            return (jutsu.rank?.toLowerCase() ?? '') === value.toLowerCase();
+          case 'class':
+            return (jutsu.class?.toLowerCase() ?? '') === value.toLowerCase();
+          case 'range':
+            return (jutsu.range?.toLowerCase() ?? '') === value.toLowerCase();
+          case 'hand_seals':
+            return jutsu.hand_seals?.some(v => v.toLowerCase() === value.toLowerCase()) ?? false;
+          default:
+            return false;
         }
-        
-        if (typeof jutsuValue === 'string') {
-          return jutsuValue.toLowerCase() === value.toLowerCase();
-        }
-        
-        console.error(`Unexpected type for ${categoryKey}:`, jutsuValue);
-        return false;
-      })
-    }) as Jutsu[]
+      });
+    });
   }, [selectedFilters, jutsuData])
 
   const handleFilterSelect = (category: string, value: string) => {
