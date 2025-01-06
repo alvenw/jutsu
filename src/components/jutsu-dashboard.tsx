@@ -3,6 +3,8 @@ import { FilterSelect, SelectedFilters } from "./jutsu-filters"
 import { JutsuTable } from "./jutsu-table"
 import { Badge } from "@/components/ui/badge"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { HandSealJutsuMatcher } from "./hand-seal-jutsu-matcher"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import jutsuData from "@/assets/jutsu.json"
 import { type Row } from "@tanstack/react-table"
 
@@ -19,11 +21,14 @@ const RANK_ORDER: Record<string, number> = {
 // Define interfaces for our data
 interface Jutsu {
   name: string
+  pageid: number
+  url: string
   classification?: string[]
   nature?: string[]
-  rank?: string
+  rank: string | null
   class?: string
   range?: string
+  hand_seals?: string[]
 }
 
 export default function JutsuDashboard() {
@@ -40,6 +45,7 @@ export default function JutsuDashboard() {
       rank: [],
       class: [],
       range: [],
+      hand_seals: [],
     }
 
     return {
@@ -58,6 +64,9 @@ export default function JutsuDashboard() {
       range: Array.from(
         new Set(jutsuData.map((jutsu: Jutsu) => jutsu.range ?? ''))
       ).filter(Boolean).sort(),
+      hand_seals: Array.from(
+        new Set(jutsuData.flatMap((jutsu: Jutsu) => jutsu.hand_seals ?? []))
+      ).filter(Boolean).sort(),
     }
   }, [jutsuData])
 
@@ -65,12 +74,38 @@ export default function JutsuDashboard() {
     {
       accessorKey: "name",
       header: "Name",
-      size: 30,
+      size: 20,
+      cell: ({ row }: { row: Row<Jutsu> }) => (
+        <a
+          href={row.original.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:underline"
+          tabIndex={0}
+          aria-label={`View ${row.original.name} on Naruto Wiki`}
+        >
+          {row.original.name}
+        </a>
+      ),
+    },
+    {
+      accessorKey: "hand_seals",
+      header: "Hand Seals",
+      size: 20,
+      cell: ({ row }: { row: Row<Jutsu> }) => (
+        <div className="flex flex-wrap gap-1">
+          {row.original.hand_seals?.map((seal: string, index: number) => (
+            <Badge key={`${seal}-${index}`} variant="outline">
+              {seal}
+            </Badge>
+          ))}
+        </div>
+      ),
     },
     {
       accessorKey: "classification",
       header: "Classification",
-      size: 25,
+      size: 20,
       cell: ({ row }: { row: Row<Jutsu> }) => (
         <div className="flex flex-wrap gap-1">
           {row.original.classification?.map((c: string) => (
@@ -84,7 +119,7 @@ export default function JutsuDashboard() {
     {
       accessorKey: "nature",
       header: "Nature",
-      size: 20,
+      size: 10,
       cell: ({ row }: { row: Row<Jutsu> }) => (
         <div className="flex flex-wrap gap-1">
           {row.original.nature?.map((n: string) => (
@@ -100,9 +135,9 @@ export default function JutsuDashboard() {
       header: "Rank",
       size: 5,
       cell: ({ row }: { row: Row<Jutsu> }) => row.original.rank || '-',
-      sortingFn: (rowA, rowB, columnId) => {
-        const rankA = rowA.getValue(columnId) as string | undefined
-        const rankB = rowB.getValue(columnId) as string | undefined
+      sortingFn: (rowA: Row<Jutsu>, rowB: Row<Jutsu>, columnId: string) => {
+        const rankA = rowA.getValue(columnId) as string | null
+        const rankB = rowB.getValue(columnId) as string | null
 
         // Convert ranks to their numeric values for comparison
         const valueA = rankA ? RANK_ORDER[rankA.replace('-rank', '')] : undefined
@@ -126,7 +161,7 @@ export default function JutsuDashboard() {
     {
       accessorKey: "range",
       header: "Range",
-      size: 10,
+      size: 15,
       cell: ({ row }: { row: Row<Jutsu> }) => row.original.range || '-',
     },
   ]
@@ -191,58 +226,79 @@ export default function JutsuDashboard() {
         <h1 className="text-4xl font-bold">Jutsu Database</h1>
         <ThemeToggle />
       </div>
-      
-      <div className="flex flex-wrap gap-4 mb-8">
-        <FilterSelect
-          title="Classification"
-          options={filterOptions.classification}
-          selected={selectedFilters
-            .filter((f) => f.category === "Classification")
-            .map((f) => f.value)}
-          onSelect={(value) => handleFilterSelect("Classification", value)}
-        />
-        <FilterSelect
-          title="Nature"
-          options={filterOptions.nature}
-          selected={selectedFilters
-            .filter((f) => f.category === "Nature")
-            .map((f) => f.value)}
-          onSelect={(value) => handleFilterSelect("Nature", value)}
-        />
-        <FilterSelect
-          title="Rank"
-          options={filterOptions.rank}
-          selected={selectedFilters
-            .filter((f) => f.category === "Rank")
-            .map((f) => f.value)}
-          onSelect={(value) => handleFilterSelect("Rank", value)}
-        />
-        <FilterSelect
-          title="Class"
-          options={filterOptions.class}
-          selected={selectedFilters
-            .filter((f) => f.category === "Class")
-            .map((f) => f.value)}
-          onSelect={(value) => handleFilterSelect("Class", value)}
-        />
-        <FilterSelect
-          title="Range"
-          options={filterOptions.range}
-          selected={selectedFilters
-            .filter((f) => f.category === "Range")
-            .map((f) => f.value)}
-          onSelect={(value) => handleFilterSelect("Range", value)}
-        />
-      </div>
 
-      <SelectedFilters
-        selected={selectedFilters}
-        onRemove={handleFilterRemove}
-      />
+      <Tabs defaultValue="database" className="space-y-8">
+        <TabsList>
+          <TabsTrigger value="database">Database</TabsTrigger>
+          <TabsTrigger value="hand-seals">Hand Seal Detection</TabsTrigger>
+        </TabsList>
 
-      <div className="mt-8">
-        <JutsuTable data={filteredData} columns={columns} />
-      </div>
+        <TabsContent value="database" className="space-y-8">
+          <div className="flex flex-wrap gap-4">
+            <FilterSelect
+              title="Classification"
+              options={filterOptions.classification}
+              selected={selectedFilters
+                .filter((f) => f.category === "Classification")
+                .map((f) => f.value)}
+              onSelect={(value) => handleFilterSelect("Classification", value)}
+            />
+            <FilterSelect
+              title="Nature"
+              options={filterOptions.nature}
+              selected={selectedFilters
+                .filter((f) => f.category === "Nature")
+                .map((f) => f.value)}
+              onSelect={(value) => handleFilterSelect("Nature", value)}
+            />
+            <FilterSelect
+              title="Rank"
+              options={filterOptions.rank}
+              selected={selectedFilters
+                .filter((f) => f.category === "Rank")
+                .map((f) => f.value)}
+              onSelect={(value) => handleFilterSelect("Rank", value)}
+            />
+            <FilterSelect
+              title="Class"
+              options={filterOptions.class}
+              selected={selectedFilters
+                .filter((f) => f.category === "Class")
+                .map((f) => f.value)}
+              onSelect={(value) => handleFilterSelect("Class", value)}
+            />
+            <FilterSelect
+              title="Range"
+              options={filterOptions.range}
+              selected={selectedFilters
+                .filter((f) => f.category === "Range")
+                .map((f) => f.value)}
+              onSelect={(value) => handleFilterSelect("Range", value)}
+            />
+            <FilterSelect
+              title="Hand Seals"
+              options={filterOptions.hand_seals}
+              selected={selectedFilters
+                .filter((f) => f.category === "Hand Seals")
+                .map((f) => f.value)}
+              onSelect={(value) => handleFilterSelect("Hand Seals", value)}
+            />
+          </div>
+
+          <SelectedFilters
+            selected={selectedFilters}
+            onRemove={handleFilterRemove}
+          />
+
+          <div className="mt-8">
+            <JutsuTable data={filteredData} columns={columns} />
+          </div>
+        </TabsContent>
+
+        <TabsContent value="hand-seals">
+          <HandSealJutsuMatcher />
+        </TabsContent>
+      </Tabs>
     </div>
   )
 }
