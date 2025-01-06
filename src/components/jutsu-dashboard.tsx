@@ -25,10 +25,11 @@ interface Jutsu {
   url: string
   classification?: string[]
   nature?: string[]
-  rank: string | null
-  class?: string
-  range?: string
+  rank?: string | null
+  class?: string | null
+  range?: string | null
   hand_seals?: string[]
+  [key: string]: string | number | string[] | null | undefined // Add index signature
 }
 
 export default function JutsuDashboard() {
@@ -50,22 +51,22 @@ export default function JutsuDashboard() {
 
     return {
       classification: Array.from(
-        new Set(jutsuData.flatMap((jutsu: Jutsu) => jutsu.classification ?? []))
+        new Set(jutsuData.flatMap((jutsu) => jutsu.classification ?? []))
       ).filter(Boolean).sort(),
       nature: Array.from(
-        new Set(jutsuData.flatMap((jutsu: Jutsu) => jutsu.nature ?? []))
+        new Set(jutsuData.flatMap((jutsu) => jutsu.nature ?? []))
       ).filter(Boolean).sort(),
       rank: Array.from(
-        new Set(jutsuData.map((jutsu: Jutsu) => jutsu.rank ?? ''))
+        new Set(jutsuData.map((jutsu) => jutsu.rank ?? ''))
       ).filter(Boolean).sort(),
       class: Array.from(
-        new Set(jutsuData.map((jutsu: Jutsu) => jutsu.class ?? ''))
+        new Set(jutsuData.map((jutsu) => jutsu.class ?? ''))
       ).filter(Boolean).sort(),
       range: Array.from(
-        new Set(jutsuData.map((jutsu: Jutsu) => jutsu.range ?? ''))
+        new Set(jutsuData.map((jutsu) => jutsu.range ?? ''))
       ).filter(Boolean).sort(),
       hand_seals: Array.from(
-        new Set(jutsuData.flatMap((jutsu: Jutsu) => jutsu.hand_seals ?? []))
+        new Set(jutsuData.flatMap((jutsu) => jutsu.hand_seals ?? []))
       ).filter(Boolean).sort(),
     }
   }, [jutsuData])
@@ -169,9 +170,9 @@ export default function JutsuDashboard() {
   const filteredData = useMemo(() => {
     if (!jutsuData) return []
     
-    return jutsuData.filter((jutsu: Jutsu) => {
+    return jutsuData.filter((jutsu) => {
       return selectedFilters.every(({ category, value }) => {
-        const categoryKey = category.toLowerCase();
+        const categoryKey = category.toLowerCase() as keyof Jutsu;
         const jutsuValue = jutsu[categoryKey];
         
         if (jutsuValue === undefined || jutsuValue === null) return false;
@@ -193,7 +194,7 @@ export default function JutsuDashboard() {
         console.error(`Unexpected type for ${categoryKey}:`, jutsuValue);
         return false;
       })
-    })
+    }) as Jutsu[]
   }, [selectedFilters, jutsuData])
 
   const handleFilterSelect = (category: string, value: string) => {
@@ -227,10 +228,10 @@ export default function JutsuDashboard() {
         <ThemeToggle />
       </div>
 
-      <Tabs defaultValue="database" className="space-y-8">
+      <Tabs defaultValue="hand-seals" className="space-y-8">
         <TabsList>
-          <TabsTrigger value="database">Database</TabsTrigger>
           <TabsTrigger value="hand-seals">Hand Seal Detection</TabsTrigger>
+          <TabsTrigger value="database">Database</TabsTrigger>
         </TabsList>
 
         <TabsContent value="database" className="space-y-8">
