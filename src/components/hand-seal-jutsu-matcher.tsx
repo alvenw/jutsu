@@ -77,34 +77,56 @@ export function HandSealJutsuMatcher() {
   }, [detectedSeals])
 
   return (
-    <div className="space-y-8">
-      <div className="rounded-lg border bg-card">
-        <div className="p-6">
-          <h2 className="text-2xl font-bold mb-4">Hand Seal Detection</h2>
-          <p className="text-muted-foreground mb-4">
-            Perform hand seals in front of your camera to find matching jutsus. The detected seals will be shown below, 
-            and matching jutsus will be displayed in the table.
-          </p>
-          <HandSealDetector 
-            onHandSealDetected={handleHandSealDetected}
-            currentSeals={detectedSeals}
-          />
-        </div>
+    <div className="relative h-screen flex flex-col">
+      {/* Camera view takes up most of the space but leaves room for matching jutsus */}
+      <div className="relative h-[calc(100vh-200px)] min-h-0">
+        <HandSealDetector 
+          onHandSealDetected={handleHandSealDetected}
+          currentSeals={detectedSeals}
+        />
       </div>
-
-      <div className="rounded-lg border bg-card">
-        <div className="p-6">
-          <h2 className="text-2xl font-bold mb-4">Matching Jutsus</h2>
-          {matchingJutsus.length > 0 ? (
-            <JutsuTable
-              data={matchingJutsus}
-              columns={columns}
-            />
-          ) : (
-            <div className="text-center py-8 text-muted-foreground">
-              No matching jutsus found. Try performing some hand seals!
-            </div>
-          )}
+      
+      {/* Matching Jutsus Panel - Fixed height at bottom */}
+      <div className="fixed bottom-0 left-0 right-0 bg-black/40 backdrop-blur-sm h-[400px] overflow-y-auto">
+        <div className="container mx-auto py-4 px-6">
+          <div className="space-y-4">
+            <h2 className="text-xl font-bold text-white">Matching Jutsus</h2>
+            {matchingJutsus.length > 0 ? (
+              <div className="space-y-2">
+                {matchingJutsus.map((jutsu) => (
+                  <div 
+                    key={jutsu.pageid}
+                    className="flex items-center justify-between bg-white/10 rounded-lg p-3 text-white"
+                  >
+                    <div>
+                      <a
+                        href={jutsu.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-primary transition-colors"
+                      >
+                        {jutsu.name}
+                      </a>
+                      <div className="flex gap-2 mt-2">
+                        {jutsu.hand_seals?.map((seal, index) => (
+                          <span
+                            key={`${seal}-${index}`}
+                            className="px-2 py-1 bg-white/10 rounded text-sm"
+                          >
+                            {seal}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="text-center py-2 text-white/70">
+                No matching jutsus found. Try performing some hand seals!
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>

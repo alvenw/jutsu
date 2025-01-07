@@ -188,8 +188,9 @@ export function HandSealDetector({ onHandSealDetected, currentSeals }: HandSealD
   }, [onHandSealDetected])
 
   return (
-    <div className="relative w-full max-w-2xl mx-auto">
-      <div className="relative aspect-video bg-muted rounded-lg overflow-hidden">
+    <div className="fixed inset-0 w-full h-full">
+      {/* Webcam Container */}
+      <div className="relative w-full h-full">
         <video
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover"
@@ -202,53 +203,64 @@ export function HandSealDetector({ onHandSealDetected, currentSeals }: HandSealD
           height={480}
         />
         
-        {!isStarted && (
-          <div className="absolute inset-0 flex items-center justify-center bg-background/80">
-            <p className="text-lg font-medium">Click "Start Camera" to begin hand seal detection</p>
-          </div>
-        )}
-      </div>
-      
-      <div className="mt-4 flex justify-between items-center">
-        <div className="space-x-2">
-          <Button
-            onClick={handleStartStop}
-            variant={isStarted ? "destructive" : "default"}
-          >
-            {isStarted ? "Stop Camera" : "Start Camera"}
-          </Button>
-          
+        {/* Semi-transparent overlay */}
+        <div className="absolute inset-0 bg-black/40 transition-opacity duration-300">
+          {/* Centered seal display */}
           {currentSeals.length > 0 && (
-            <Button
-              onClick={handleClearSeals}
-              variant="outline"
-            >
-              Clear Seals
-            </Button>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-white p-8">
+              {currentSeals[currentSeals.length - 1]}
+            </div>
           )}
+          
+          {/* Controls overlay at the top */}
+          <div className="absolute top-0 left-0 right-0 p-4 flex justify-between items-center bg-black/40">
+            <div className="space-x-2">
+              <Button
+                onClick={handleStartStop}
+                variant={isStarted ? "destructive" : "default"}
+              >
+                {isStarted ? "Stop Camera" : "Start Camera"}
+              </Button>
+              
+              {currentSeals.length > 0 && (
+                <Button
+                  onClick={handleClearSeals}
+                  variant="outline"
+                >
+                  Clear Seals
+                </Button>
+              )}
 
-          <Button
-            onClick={() => setDebugMode(prev => !prev)}
-            variant="outline"
-            size="sm"
-          >
-            {debugMode ? "Disable Debug" : "Enable Debug"}
-          </Button>
+              <Button
+                onClick={() => setDebugMode(prev => !prev)}
+                variant="outline"
+                size="sm"
+              >
+                {debugMode ? "Disable Debug" : "Enable Debug"}
+              </Button>
+            </div>
+            
+            {currentSeals.length > 0 && (
+              <div className="flex gap-2 items-center">
+                <span className="text-sm text-white">Sequence:</span>
+                <div className="flex gap-2">
+                  {currentSeals.map((seal, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1.5 bg-white/10 text-white rounded-md text-sm backdrop-blur-sm"
+                    >
+                      {seal}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
         
-        {currentSeals.length > 0 && (
-          <div className="flex gap-2 items-center">
-            <span className="text-sm text-muted-foreground">Detected Seals:</span>
-            <div className="flex gap-2">
-              {currentSeals.map((seal, index) => (
-                <span
-                  key={index}
-                  className="px-2 py-1 bg-primary text-primary-foreground rounded text-sm"
-                >
-                  {seal}
-                </span>
-              ))}
-            </div>
+        {!isStarted && (
+          <div className="">
+            <p className="text-2xl font-medium text-white">Click "Start Camera" to begin hand seal detection</p>
           </div>
         )}
       </div>
