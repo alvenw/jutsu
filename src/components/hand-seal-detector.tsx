@@ -4,7 +4,7 @@ import { Camera } from '@mediapipe/camera_utils'
 import { drawConnectors, drawLandmarks } from '@mediapipe/drawing_utils'
 import { HAND_CONNECTIONS } from '@mediapipe/hands'
 import { Button } from './ui/button'
-import { detectHandSeal, type HandPosition } from '@/utils/hand-seal-detection'
+import { detectHandSeal, type HandPosition } from '@/utils/hand-seal-detection-v2'
 
 interface HandSealDetectorProps {
   onHandSealDetected: (handSeals: string[]) => void
@@ -20,6 +20,7 @@ export function HandSealDetector({ onHandSealDetected, currentSeals }: HandSealD
   const lastDetectedSealRef = useRef<string | null>(null)
   const detectionTimeoutRef = useRef<NodeJS.Timeout | null>(null)
   const [debugMode, setDebugMode] = useState(false)
+  const [confidenceThreshold] = useState(0.8) // Minimum confidence threshold for detection
 
   // Initialize MediaPipe Hands
   useEffect(() => {
@@ -67,32 +68,52 @@ export function HandSealDetector({ onHandSealDetected, currentSeals }: HandSealD
 
           // Only proceed if we detect exactly 2 hands
           if (results.multiHandLandmarks.length === 2) {
+            // Validate hand types
+            const handTypes = results.multiHandedness.map(h => h.label)
+            if (!handTypes.includes('Left') || !handTypes.includes('Right')) {
+              if (debugMode) {
+                console.log('❌ Need both left and right hands for seal detection')
+              }
+              return
+            }
+
             // Prepare hand positions for seal detection
             const handPositions: HandPosition[] = results.multiHandLandmarks.map((landmarks, index) => ({
               landmarks,
               handedness: results.multiHandedness[index].label as 'Left' | 'Right'
             }))
 
-            // Detect hand seals
-            const detectedSeal = detectHandSeal(handPositions)
+            // Detect hand seals with confidence score
+            const detectionResult = detectHandSeal(handPositions)
             
             if (debugMode) {
               console.log('Attempting seal detection...')
-              if (detectedSeal) {
-                console.log('✅ Detected seal:', detectedSeal)
+              if (detectionResult.seal) {
+                console.log('✅ Detection result:', {
+                  seal: detectionResult.seal,
+                  confidence: detectionResult.confidence.toFixed(2)
+                })
+              } else {
+                console.log('❌ No seal detected or confidence too low')
               }
             }
             
-            // Only add new seal if it's different from the last one and persists for a short time
-            if (detectedSeal && detectedSeal !== lastDetectedSealRef.current) {
+            // Only process detection if we have a seal and sufficient confidence
+            if (detectionResult.seal && 
+                detectionResult.confidence >= confidenceThreshold && 
+                detectionResult.seal !== lastDetectedSealRef.current) {
+              
               if (detectionTimeoutRef.current) {
                 clearTimeout(detectionTimeoutRef.current)
               }
               
               detectionTimeoutRef.current = setTimeout(() => {
-                console.log('🎯 Confirmed seal detection:', detectedSeal)
-                onHandSealDetected([...currentSeals, detectedSeal])
-                lastDetectedSealRef.current = detectedSeal
+                if (detectionResult.seal) {
+                  console.log('🎯 Confirmed seal detection:', detectionResult.seal, 
+                            'with confidence:', detectionResult.confidence.toFixed(2))
+                  onHandSealDetected([...currentSeals, detectionResult.seal])
+                  lastDetectedSealRef.current = detectionResult.seal
+                }
               }, 1000) // Wait 1 second to confirm the seal
             }
           } else if (debugMode) {
@@ -127,7 +148,7 @@ export function HandSealDetector({ onHandSealDetected, currentSeals }: HandSealD
         clearTimeout(detectionTimeoutRef.current)
       }
     }
-  }, [isStarted, debugMode, onHandSealDetected, currentSeals])
+  }, [isStarted, debugMode, onHandSealDetected, currentSeals, confidenceThreshold])
 
   // Cleanup on unmount
   useEffect(() => {
