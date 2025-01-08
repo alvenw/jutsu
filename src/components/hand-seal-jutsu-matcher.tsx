@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { HandSealDetector } from './hand-seal-detector'
 import jutsuData from '@/assets/jutsu.json'
-import { type ColumnDef } from '@tanstack/react-table'
+// import { type ColumnDef } from '@tanstack/react-table'
 
 interface Jutsu {
   name: string

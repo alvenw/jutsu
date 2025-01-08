@@ -484,7 +484,6 @@ const detectSpecialFormationSeals = (
 const detectMixedOrientationSeals = (
   left: HandAnalysis,
   right: HandAnalysis,
-  relationship: HandRelationship
 ): SealDetectionResult => {
   // Ox Seal
   if (right.isHorizontal && left.isVertical) {
@@ -561,7 +560,7 @@ export const detectHandSeal = (hands: HandPosition[]): SealDetectionResult => {
 
     // Fourth Level: Mixed Orientation Check
     if (leftAnalysis.isVertical !== rightAnalysis.isVertical) {
-      result = detectMixedOrientationSeals(leftAnalysis, rightAnalysis, relationship)
+      result = detectMixedOrientationSeals(leftAnalysis, rightAnalysis)
       if (result.confidence > 0.8) return result
     }
 
