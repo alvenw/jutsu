@@ -56,6 +56,18 @@ interface HandRelationship {
   lastKnownDistance?: number
 }
 
+interface DebugState {
+  lastLogTime: number;
+  intervalMs: number;
+}
+
+interface DetectionState {
+  leftAnalysis?: HandAnalysis;
+  rightAnalysis?: HandAnalysis;
+  relationship?: HandRelationship;
+  debug?: DebugState;
+}
+
 // Helper functions for geometric calculations
 const calculateDistance = (point1: NormalizedLandmark, point2: NormalizedLandmark): number => {
   return Math.sqrt(
@@ -232,16 +244,18 @@ const checkTigerSeal = (
   let confidence = 0
 
   // Both thumbs should be up
-  confidence += (left.thumbPosition.isUp && right.thumbPosition.isUp) ? 0.4 : 0
+  confidence += (left.thumbPosition.isUp && right.thumbPosition.isUp) ? 0.3 : 0
   
-  // Fingers should be interlocked
-  confidence += relationship.areIndexFingersTogether ? 0.3 : 0
+  // Specific finger positions
+  confidence += (left.fingerPositions.isIndexUp && right.fingerPositions.isIndexUp) ? 0.2 : 0
+  confidence += relationship.areIndexFingersTogether ? 0.2 : 0
   
-  // Hands should be together
-  confidence += relationship.areHandsTogether ? 0.3 : 0
+  // Hands should be together and properly aligned
+  confidence += relationship.areHandsTogether ? 0.2 : 0
+  confidence += (relationship.verticalAlignment < 0.1) ? 0.1 : 0
 
   return {
-    matches: confidence > 0.8,
+    matches: confidence > 0.9, // Increased threshold
     confidence
   }
 }
@@ -356,32 +370,38 @@ const checkRatSeal = (
   right: HandAnalysis,
   relationship: HandRelationship
 ): DetectionConfidence => {
-  let confidence = 0
+  let confidence = 0;
 
-  // Right hand should have index and middle fingers straight
-  confidence += (right.fingerPositions.isIndexUp && 
-                right.fingerPositions.isMiddleUp) ? 0.3 : 0
+  // Left hand characteristics
+  if (left.isVertical) confidence += 0.15;
+  if (left.fingerPositions.areFingersCurled) confidence += 0.15;
+  if (left.fingerPositions.areAllFingersTogether || left.fingerPositions.thumbOnPinky) confidence += 0.15;
   
-  // Left hand should wrap around (indicated by close proximity)
-  confidence += relationship.areHandsTogether ? 0.3 : 0
-  
-  // Left thumb should be outside
-  confidence += left.thumbPosition.isOutside ? 0.2 : 0
-  
-  // Vertical alignment
-  confidence += (left.isVertical && right.isVertical) ? 0.2 : 0
+  // Right hand characteristics
+  if (right.isVertical && !right.isHorizontal) confidence += 0.15;
+  if (right.fingerPositions.areFingersCurled) confidence += 0.15;
+  if (right.fingerPositions.areAllFingersTogether) confidence += 0.15;
+  if (right.thumbPosition.isOutside && right.thumbPosition.isUp) confidence += 0.15;
 
-  // Handle occlusion case
-  if (relationship.possibleOcclusion && 
-      right.previousState?.fingerPositions.isIndexUp && 
-      right.previousState?.fingerPositions.isMiddleUp) {
-    confidence = Math.max(confidence, 0.7)
+  // Relationship characteristics
+  if (relationship.areHandsTogether) confidence += 0.1;
+  if (relationship.distance < 0.3) confidence += 0.1;
+  if (relationship.verticalAlignment < 0.3) confidence += 0.1;
+  if (relationship.horizontalAlignment < 0.15) confidence += 0.1;
+
+  // Negative conditions (things that should NOT be true for a Rat seal)
+  if (left.fingerPositions.areFingersStraight || right.fingerPositions.areFingersStraight) {
+    confidence -= 0.3;
+  }
+
+  if (!left.isVertical || !right.isVertical) {
+    confidence -= 0.3;
   }
 
   return {
-    matches: confidence > 0.7,
-    confidence
-  }
+    matches: confidence > 0.75, // Slightly lower threshold due to natural variations
+    confidence: Math.max(0, confidence) // Ensure confidence doesn't go negative
+  };
 }
 
 const checkSerpentSeal = (
@@ -393,24 +413,40 @@ const checkSerpentSeal = (
 
   // All fingers should be interlocked
   confidence += (left.fingerPositions.areAllFingersTogether && 
-                right.fingerPositions.areAllFingersTogether) ? 0.4 : 0
+                right.fingerPositions.areAllFingersTogether) ? 0.3 : 0
   
-  // Hands should be very close together
-  confidence += relationship.areHandsTogether ? 0.3 : 0
+  // Hands should be very close together and properly aligned
+  confidence += relationship.areHandsTogether ? 0.2 : 0
+  confidence += (relationship.verticalAlignment < 0.1) ? 0.2 : 0
   
-  // Vertical alignment
-  confidence += (left.isVertical && right.isVertical) ? 0.3 : 0
-
-  // Handle occlusion
-  if (relationship.possibleOcclusion && 
-      relationship.areHandsTogether && 
-      left.previousState?.fingerPositions.areAllFingersTogether && 
-      right.previousState?.fingerPositions.areAllFingersTogether) {
-    confidence = Math.max(confidence, 0.7)
-  }
+  // Vertical alignment with specific positioning
+  confidence += (left.isVertical && right.isVertical) ? 0.2 : 0
+  confidence += (!left.thumbPosition.isUp && !right.thumbPosition.isUp) ? 0.1 : 0
 
   return {
-    matches: confidence > 0.7,
+    matches: confidence > 0.85, // Increased threshold
+    confidence
+  }
+}
+
+// More specific Ram Seal detection
+const checkRamSeal = (
+  left: HandAnalysis,
+  right: HandAnalysis,
+  relationship: HandRelationship
+): DetectionConfidence => {
+  let confidence = 0
+
+  // Specific Ram seal characteristics
+  confidence += (left.isVertical && right.isVertical) ? 0.2 : 0
+  confidence += left.thumbPosition.isOnTop ? 0.2 : 0
+  confidence += relationship.areHandsTogether ? 0.2 : 0
+  confidence += (left.fingerPositions.areAllFingersTogether && 
+                right.fingerPositions.areAllFingersTogether) ? 0.2 : 0
+  confidence += relationship.areIndexFingersTogether ? 0.2 : 0
+
+  return {
+    matches: confidence > 0.8, // Requiring more matching conditions
     confidence
   }
 }
@@ -433,9 +469,10 @@ const detectVerticalSeals = (
     return { seal: 'Serpent', confidence: serpentConfidence.confidence }
   }
 
-  // Ram Seal
-  if (left.thumbPosition.isOnTop && relationship.areHandsTogether) {
-    return { seal: 'Ram', confidence: 0.9 }
+  // Ram Seal - Now using proper check
+  const ramConfidence = checkRamSeal(left, right, relationship)
+  if (ramConfidence.matches) {
+    return { seal: 'Ram', confidence: ramConfidence.confidence }
   }
 
   // Dragon Seal
@@ -484,61 +521,126 @@ const detectSpecialFormationSeals = (
 const detectMixedOrientationSeals = (
   left: HandAnalysis,
   right: HandAnalysis,
+  relationship: HandRelationship
 ): SealDetectionResult => {
+  // Dog Seal - Revised for flat left hand on top of right fist
+  const isDogSeal = 
+    // Left hand should be flat and horizontal (like a table)
+    left.isHorizontal &&
+    !left.isVertical &&
+    left.fingerPositions.areAllFingersTogether &&
+    !left.fingerPositions.areFingersCurled &&
+    
+    // Right hand should be in a fist
+    right.fingerPositions.areFingersCurled &&
+    
+    // Left hand should be positioned above right hand
+    left.thumbPosition.isOnTop &&
+    
+    // Hands should be close together
+    relationship.areHandsTogether;
+
+  if (isDogSeal) {
+    return { seal: 'Dog', confidence: 0.9 };
+  }
+
   // Ox Seal
   if (right.isHorizontal && left.isVertical) {
     return { seal: 'Ox', confidence: 0.9 }
   }
 
-  // Dog Seal
-  if (left.isHorizontal && right.fingerPositions.areAllFingersTogether) {
-    return { seal: 'Dog', confidence: 0.85 }
-  }
-
   return { seal: null, confidence: 0 }
 }
 
-// Update main detection function to handle state persistence
+// Add a debug logging function
+const logDebugInfo = (
+  leftAnalysis: HandAnalysis,
+  rightAnalysis: HandAnalysis,
+  relationship: HandRelationship
+) => {
+  console.group('Hand Seal Debug Info');
+  console.log('Left Hand Analysis:', {
+    isVertical: leftAnalysis.isVertical,
+    isHorizontal: leftAnalysis.isHorizontal,
+    thumbPosition: leftAnalysis.thumbPosition,
+    fingerPositions: leftAnalysis.fingerPositions
+  });
+  
+  console.log('Right Hand Analysis:', {
+    isVertical: rightAnalysis.isVertical,
+    isHorizontal: rightAnalysis.isHorizontal,
+    thumbPosition: rightAnalysis.thumbPosition,
+    fingerPositions: rightAnalysis.fingerPositions
+  });
+  
+  console.log('Hand Relationship:', {
+    distance: relationship.distance,
+    verticalAlignment: relationship.verticalAlignment,
+    horizontalAlignment: relationship.horizontalAlignment,
+    isTriangleFormation: relationship.isTriangleFormation,
+    areHandsTogether: relationship.areHandsTogether,
+    areThumbsTogether: relationship.areThumbsTogether,
+    areIndexFingersTogether: relationship.areIndexFingersTogether
+  });
+  console.groupEnd();
+}
+
+// Modify the main detection function to include debugging
 export const detectHandSeal = (hands: HandPosition[]): SealDetectionResult => {
   if (hands.length !== 2) {
-    return { seal: null, confidence: 0 }
+    return { seal: null, confidence: 0 };
   }
 
   try {
-    const leftHand = hands.find(h => h.handedness === 'Left')
-    const rightHand = hands.find(h => h.handedness === 'Right')
+    const leftHand = hands.find(h => h.handedness === 'Left');
+    const rightHand = hands.find(h => h.handedness === 'Right');
 
-    // Validate that we have both hands and their landmarks
     if (!leftHand?.landmarks || !rightHand?.landmarks) {
-      return { seal: null, confidence: 0 }
+      return { seal: null, confidence: 0 };
     }
 
-    // Get previous state from static variable (closure)
-    const previousState = detectHandSeal.previousState || {
+    // Initialize or get previous state
+    detectHandSeal.previousState = detectHandSeal.previousState || {
       leftAnalysis: undefined,
       rightAnalysis: undefined,
-      relationship: undefined
-    }
+      relationship: undefined,
+      debug: {
+        lastLogTime: 0,
+        intervalMs: 5000 // 5 seconds interval
+      }
+    };
 
     const leftAnalysis = analyzeHandPosition(
       leftHand.landmarks, 
-      previousState.leftAnalysis
-    )
+      detectHandSeal.previousState.leftAnalysis
+    );
     const rightAnalysis = analyzeHandPosition(
       rightHand.landmarks,
-      previousState.rightAnalysis
-    )
+      detectHandSeal.previousState.rightAnalysis
+    );
     const relationship = analyzeHandsRelationship(
       [leftHand, rightHand],
-      previousState.relationship
-    )
+      detectHandSeal.previousState.relationship
+    );
 
-    // Store current state for next frame
+    // Debug logging with rate limiting
+    const currentTime = Date.now();
+    if (currentTime - (detectHandSeal.previousState.debug?.lastLogTime || 0) > 
+        (detectHandSeal.previousState.debug?.intervalMs || 5000)) {
+      logDebugInfo(leftAnalysis, rightAnalysis, relationship);
+      detectHandSeal.previousState.debug = {
+        lastLogTime: currentTime,
+        intervalMs: 5000
+      };
+    }
+
+    // Store current state
     detectHandSeal.previousState = {
       leftAnalysis,
       rightAnalysis,
-      relationship
-    }
+      relationship,
+      debug: detectHandSeal.previousState.debug
+    };
 
     let result: SealDetectionResult = { seal: null, confidence: 0 }
 
@@ -560,7 +662,7 @@ export const detectHandSeal = (hands: HandPosition[]): SealDetectionResult => {
 
     // Fourth Level: Mixed Orientation Check
     if (leftAnalysis.isVertical !== rightAnalysis.isVertical) {
-      result = detectMixedOrientationSeals(leftAnalysis, rightAnalysis)
+      result = detectMixedOrientationSeals(leftAnalysis, rightAnalysis, relationship)
       if (result.confidence > 0.8) return result
     }
 
@@ -572,10 +674,4 @@ export const detectHandSeal = (hands: HandPosition[]): SealDetectionResult => {
 }
 
 // Add static property for state persistence with proper typing
-interface DetectionState {
-  leftAnalysis?: HandAnalysis
-  rightAnalysis?: HandAnalysis
-  relationship?: HandRelationship
-}
-
 detectHandSeal.previousState = null as DetectionState | null 
