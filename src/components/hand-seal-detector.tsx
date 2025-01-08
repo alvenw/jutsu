@@ -204,11 +204,13 @@ export function HandSealDetector({ onHandSealDetected, currentSeals }: HandSealD
         />
         
         {/* Semi-transparent overlay */}
-        <div className="absolute inset-0 bg-black/40 transition-opacity duration-300">
+        <div className="absolute inset-0 duration-300">
           {/* Centered seal display */}
           {currentSeals.length > 0 && (
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-white p-8">
-              {currentSeals[currentSeals.length - 1]}
+                <div className="px-4 py-2 bg-black/40 text-white rounded-md text-xl backdrop-blur-sm">
+                    {currentSeals[currentSeals.length - 1]}
+                </div>
             </div>
           )}
           
@@ -259,7 +261,7 @@ export function HandSealDetector({ onHandSealDetected, currentSeals }: HandSealD
         </div>
         
         {!isStarted && (
-          <div className="">
+          <div className="flex items-center justify-center h-screen w-full">
             <p className="text-2xl font-medium text-white">Click "Start Camera" to begin hand seal detection</p>
           </div>
         )}
